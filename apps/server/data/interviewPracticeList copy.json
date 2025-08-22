@@ -1,0 +1,251 @@
+{
+  "Product company": {
+    "todo": {
+      "Two Sum": {
+        "name": "Two Sum",
+        "details": "Find indices of two numbers that sum to a target. eg: input [2,7,11,15], target 9 → output [0,1]",
+        "tags": ["dsa", "hashmap"]
+      },
+      "Reverse an Array": {
+        "name": "Reverse an Array",
+        "details": "Reverse elements of an array in-place. eg: input [1,2,3] → output [3,2,1]",
+        "tags": ["dsa", "2pointer"]
+      },
+      "Remove Duplicates from Sorted Array": {
+        "name": "Remove Duplicates from Sorted Array",
+        "details": "Remove duplicates from a sorted array in-place and return new length. eg: input [1,1,2] → output [1,2]",
+        "tags": ["dsa", "2pointer"]
+      },
+      "Trapping Rain Water": {
+        "name": "Trapping Rain Water",
+        "details": "Calculate how much water is trapped between bars of different heights. eg: input [0,1,0,2] → output 1",
+        "tags": ["dsa", "2pointer", "stack"]
+      },
+      "Palindrome Linked List": {
+        "name": "Palindrome Linked List",
+        "details": "Check if a linked list reads the same forward and backward. eg: input [1,2,2,1] → output true",
+        "tags": ["dsa", "2pointer", "linkedlist"]
+      },
+      "Longest Substring Without Repeating Characters": {
+        "name": "Longest Substring Without Repeating Characters",
+        "details": "Find length of longest substring without repeating characters. eg: input 'abcabcbb' → output 3",
+        "tags": ["dsa", "slidingwindow"]
+      },
+      "Minimum Window Substring": {
+        "name": "Minimum Window Substring",
+        "details": "Find the minimum window substring containing all characters of another string. eg: input s='ADOBECODEBANC', t='ABC' → output 'BANC'",
+        "tags": ["dsa", "slidingwindow"]
+      },
+      "Linked List Cycle Detection": {
+        "name": "Linked List Cycle Detection",
+        "details": "Detect if a linked list has a cycle. eg: input linked list with a cycle → output true",
+        "tags": ["dsa", "fastslowpointer", "linkedlist"]
+      },
+      "Search in Rotated Sorted Array": {
+        "name": "Search in Rotated Sorted Array",
+        "details": "Search for target in a rotated sorted array. Return index or -1. eg: input [4,5,6,7,0,1,2], target 0 → output 4",
+        "tags": ["dsa", "binarysearch"]
+      },
+      "Median of Two Sorted Arrays": {
+        "name": "Median of Two Sorted Arrays",
+        "details": "Find median value from two sorted arrays in O(log(min(m,n))). eg: input [1,3] and [2] → output 2.0",
+        "tags": ["dsa", "binarysearch"]
+      },
+      "Subarray Sum Equals K": {
+        "name": "Subarray Sum Equals K",
+        "details": "Count number of subarrays whose sum equals k. eg: input [1,1,1], k=2 → output 2",
+        "tags": ["dsa", "prefixsum", "hashmap"]
+      },
+      "Range Sum Query - Immutable": {
+        "name": "Range Sum Query - Immutable",
+        "details": "Precompute prefix sums to query subarray sums quickly. eg: input nums=[-2,0,3,-5,2,1], sumRange(0,2) → output 1",
+        "tags": ["dsa", "prefixsum"]
+      },
+      "Group Anagrams": {
+        "name": "Group Anagrams",
+        "details": "Group words that are anagrams of each other. eg: input ['eat','tea','tan','ate'] → output [['eat','tea','ate'],['tan']]",
+        "tags": ["dsa", "hashmap", "strings"]
+      },
+      "LRU Cache": {
+        "name": "LRU Cache",
+        "details": "Design a least recently used cache supporting get and put in O(1). eg: input put(1,1), put(2,2), get(1) → output 1",
+        "tags": ["dsa", "hashmap", "design"]
+      },
+      "Permutations": {
+        "name": "Permutations",
+        "details": "Generate all permutations of a list of numbers. eg: input [1,2,3] → output [[1,2,3],[1,3,2],...]",
+        "tags": ["dsa", "backtracking"]
+      },
+      "Subsets": {
+        "name": "Subsets",
+        "details": "Return all possible subsets (power set) of a list. eg: input [1,2,3] → output [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]",
+        "tags": ["dsa", "backtracking"]
+      },
+      "Word Search": {
+        "name": "Word Search",
+        "details": "Check if a word exists in a 2D grid using DFS backtracking. eg: board=[['A','B'],['C','D']], word='ABCD' → output false",
+        "tags": ["dsa", "backtracking", "matrix"]
+      },
+      "N-Queens": {
+        "name": "N-Queens",
+        "details": "Place N queens on a chessboard so that no two queens threaten each other. eg: input N=4 → output solutions placing 4 queens safely",
+        "tags": ["dsa", "backtracking"]
+      },
+      "Climbing Stairs": {
+        "name": "Climbing Stairs",
+        "details": "Count distinct ways to reach the top of stairs taking 1 or 2 steps. eg: input n=3 → output 3",
+        "tags": ["dsa", "dp"]
+      },
+      "Longest Increasing Subsequence": {
+        "name": "Longest Increasing Subsequence",
+        "details": "Find length of the longest increasing subsequence in an array. eg: input [10,9,2,5,3,7,101,18] → output 4",
+        "tags": ["dsa", "dp"]
+      },
+      "Coin Change": {
+        "name": "Coin Change",
+        "details": "Find minimum coins needed to make a given amount. eg: coins=[1,2,5], amount=11 → output 3",
+        "tags": ["dsa", "dp"]
+      },
+      "Edit Distance": {
+        "name": "Edit Distance",
+        "details": "Find minimum edits to convert one string to another. eg: input 'horse', 'ros' → output 3",
+        "tags": ["dsa", "dp"]
+      },
+      "Interval Scheduling (Meeting Rooms II)": {
+        "name": "Interval Scheduling (Meeting Rooms II)",
+        "details": "Find minimum number of meeting rooms required for all intervals. eg: input [[0,30],[5,10],[15,20]] → output 2",
+        "tags": ["dsa", "greedy", "intervals"]
+      },
+      "Jump Game": {
+        "name": "Jump Game",
+        "details": "Determine if you can reach the end of an array given max jump lengths. eg: input [2,3,1,1,4] → output true",
+        "tags": ["dsa", "greedy"]
+      },
+      "Kth Largest Element in an Array": {
+        "name": "Kth Largest Element in an Array",
+        "details": "Find the Kth largest element in an unsorted array. eg: input [3,2,1,5,6,4], k=2 → output 5",
+        "tags": ["dsa", "heap"]
+      },
+      "Merge K Sorted Lists": {
+        "name": "Merge K Sorted Lists",
+        "details": "Merge K sorted linked lists into one sorted list. eg: input lists=[[1,4,5],[1,3,4],[2,6]] → output [1,1,2,3,4,4,5,6]",
+        "tags": ["dsa", "heap", "linkedlist"]
+      },
+      "Top K Frequent Elements": {
+        "name": "Top K Frequent Elements",
+        "details": "Find the k most frequent elements in an array. eg: input nums=[1,1,1,2,2,3], k=2 → output [1,2]",
+        "tags": ["dsa", "heap", "hashmap"]
+      },
+      "Number of Islands": {
+        "name": "Number of Islands",
+        "details": "Count the number of connected islands in a 2D grid. eg: input grid=[['1','1','0'],['0','1','0'],['0','0','1']] → output 2",
+        "tags": ["dsa", "graph", "dfs", "bfs"]
+      },
+      "Clone Graph": {
+        "name": "Clone Graph",
+        "details": "Clone an undirected graph. eg: input graph node with value 1 connected to 2 and 3 → output cloned graph",
+        "tags": ["dsa", "graph", "dfs", "bfs"]
+      },
+      "Course Schedule (Topological Sort)": {
+        "name": "Course Schedule (Topological Sort)",
+        "details": "Check if you can finish all courses given prerequisites. eg: input numCourses=2, prerequisites=[[1,0]] → output true",
+        "tags": ["dsa", "graph", "toposort"]
+      },
+      "Alien Dictionary": {
+        "name": "Alien Dictionary",
+        "details": "Determine order of letters in alien language given words. eg: input words=['wrt','wrf','er','ett'] → output 'wertf'",
+        "tags": ["dsa", "graph", "toposort"]
+      },
+      "Word Ladder": {
+        "name": "Word Ladder",
+        "details": "Transform one word to another changing one letter each step, shortest path. eg: input beginWord='hit', endWord='cog' → output 5",
+        "tags": ["dsa", "graph", "bfs"]
+      },
+      "Implement Trie (Prefix Tree)": {
+        "name": "Implement Trie (Prefix Tree)",
+        "details": "Implement insert, search, and startsWith for a Trie. eg: insert 'apple', search 'apple' → output true",
+        "tags": ["dsa", "trie"]
+      },
+      "Replace Words in a Sentence": {
+        "name": "Replace Words in a Sentence",
+        "details": "Replace words in a sentence with shortest matching prefix from dictionary. eg: input dict=['cat','bat'], sentence='the cattle was battered' → output 'the cat was bat'",
+        "tags": ["dsa", "trie"]
+      },
+      "Redundant Connection": {
+        "name": "Redundant Connection",
+        "details": "Find the extra edge that creates a cycle in a tree. eg: input edges=[[1,2],[1,3],[2,3]] → output [2,3]",
+        "tags": ["dsa", "unionfind"]
+      },
+      "Single Number": {
+        "name": "Single Number",
+        "details": "Find element appearing only once where others appear twice. eg: input [4,1,2,1,2] → output 4",
+        "tags": ["dsa", "bitmanipulation"]
+      },
+      "Counting Bits": {
+        "name": "Counting Bits",
+        "details": "Count number of 1s in binary representation for numbers 0 to n. eg: input n=5 → output [0,1,1,2,1,2]",
+        "tags": ["dsa", "bitmanipulation"]
+      },
+      "Spiral Matrix": {
+        "name": "Spiral Matrix",
+        "details": "Return matrix elements in spiral order. eg: input [[1,2],[3,4]] → output [1,2,4,3]",
+        "tags": ["dsa", "matrix"]
+      },
+      "Rotate Image": {
+        "name": "Rotate Image",
+        "details": "Rotate an N×N matrix 90 degrees clockwise in-place. eg: input [[1,2],[3,4]] → output [[3,1],[4,2]]",
+        "tags": ["dsa", "matrix"]
+      },
+      "Next Greater Element": {
+        "name": "Next Greater Element",
+        "details": "Find the next greater element for each element in an array. eg: input [4,5,2,10] → output [5,10,10,-1]",
+        "tags": ["dsa", "monotonicstack"]
+      },
+      "Largest Rectangle in Histogram": {
+        "name": "Largest Rectangle in Histogram",
+        "details": "Find area of largest rectangle in a histogram. eg: input [2,1,5,6,2,3] → output 10",
+        "tags": ["dsa", "monotonicstack"]
+      },
+      "Daily Temperatures": {
+        "name": "Daily Temperatures",
+        "details": "Find how many days until a warmer temperature for each day. eg: input [73,74,75,71,69,72,76,73] → output [1,1,4,2,1,1,0,0]",
+        "tags": ["dsa", "monotonicstack"]
+      },
+      "Binary Tree Inorder Traversal": {
+        "name": "Binary Tree Inorder Traversal",
+        "details": "Return inorder traversal of binary tree nodes’ values. eg: input tree [1,null,2,3] → output [1,3,2]",
+        "tags": ["dsa", "tree", "dfs"]
+      },
+      "Lowest Common Ancestor of BST": {
+        "name": "Lowest Common Ancestor of BST",
+        "details": "Find the lowest common ancestor of two nodes in a BST. eg: input root=[6,2,8], p=2, q=8 → output 6",
+        "tags": ["dsa", "tree"]
+      },
+      "Serialize and Deserialize Binary Tree": {
+        "name": "Serialize and Deserialize Binary Tree",
+        "details": "Convert a binary tree to a string and back. eg: input tree [1,2,3,null,null,4,5] → output same tree after serialize/deserialize",
+        "tags": ["dsa", "tree", "bfs", "dfs"]
+      },
+      "Range Sum Query - Segment Tree": {
+        "name": "Range Sum Query - Segment Tree",
+        "details": "Build a segment tree for fast range sum queries and updates. eg: input nums=[1,3,5], sumRange(0,2) → output 9",
+        "tags": ["dsa", "segmenttree"]
+      },
+      "Maximum Subarray Sum (Kadane's)": {
+        "name": "Maximum Subarray Sum (Kadane's)",
+        "details": "Find contiguous subarray with the largest sum. eg: input [-2,1,-3,4,-1,2,1,-5,4] → output 6",
+        "tags": ["dsa", "dp"]
+      }
+    },
+    "completed": {},
+    "total": 48
+  },
+  "Tech specific-front end": {
+    "todo": {},
+    "completed": {}
+  },
+  "Tech specific-full stack": {
+    "todo": {},
+    "completed": {}
+  }
+}

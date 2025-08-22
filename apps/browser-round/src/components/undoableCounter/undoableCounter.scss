@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+.btn-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100vw;
+  margin-bottom: 20px;
+}
+.btn-row button {
+  background: none;
+  border: 1px solid black;
+  padding: 4px 10px;
+  width: 100px;
+}
+
+.ops-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100vw;
+}
+.ops-row button {
+  background: none;
+  border: 1px solid black;
+  padding: 4px 10px;
+  width: 100px;
+}

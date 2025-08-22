@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+}
+.dice-body {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  padding: 2px;
+  border-radius: 2px;
+  width: 34px;
+  height: 34px;
+  border: 1px solid grey;
+}
+.dice-form {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+.dice-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.dice-dot-dummy {
+  width: 10px;
+  height: 10px;
+}

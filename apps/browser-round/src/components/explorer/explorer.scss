@@ -1,0 +1,18 @@
+.explorer {
+}
+
+.directory-list {
+  .folder-item {
+    list-style: none;
+
+    .folder-item-ctrl {
+      button {
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
+    }
+    .folder-item-edit {
+    }
+  }
+}

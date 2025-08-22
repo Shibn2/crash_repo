@@ -1,0 +1,1162 @@
+{
+  "Product company": {
+    "todo": {
+      "Interval Scheduling (Meeting Rooms II)": {
+        "name": "Interval Scheduling (Meeting Rooms II)",
+        "details": "Find minimum number of meeting rooms required for all intervals. eg: input [[0,30],[5,10],[15,20]] → output 2",
+        "tags": [
+          "dsa",
+          "greedy",
+          "intervals"
+        ],
+        "slNo": 1
+      },
+      "Merge K Sorted Lists": {
+        "name": "Merge K Sorted Lists",
+        "details": "Merge K sorted linked lists into one sorted list. eg: input lists=[[1,4,5],[1,3,4],[2,6]] → output [1,1,2,3,4,4,5,6]",
+        "tags": [
+          "dsa",
+          "heap",
+          "linkedlist"
+        ],
+        "slNo": 3
+      },
+      "Top K Frequent Elements": {
+        "name": "Top K Frequent Elements",
+        "details": "Find the k most frequent elements in an array. eg: input nums=[1,1,1,2,2,3], k=2 → output [1,2]",
+        "tags": [
+          "dsa",
+          "heap",
+          "hashmap"
+        ],
+        "slNo": 4
+      },
+      "Clone Graph": {
+        "name": "Clone Graph",
+        "details": "Clone an undirected graph. eg: input graph node with value 1 connected to 2 and 3 → output cloned graph",
+        "tags": [
+          "dsa",
+          "graph",
+          "dfs",
+          "bfs"
+        ],
+        "slNo": 6
+      },
+      "Alien Dictionary": {
+        "name": "Alien Dictionary",
+        "details": "Determine order of letters in alien language given words. eg: input words=['wrt','wrf','er','ett'] → output 'wertf'",
+        "tags": [
+          "dsa",
+          "graph",
+          "toposort"
+        ],
+        "slNo": 7
+      },
+      "Implement Trie (Prefix Tree)": {
+        "name": "Implement Trie (Prefix Tree)",
+        "details": "Implement insert, search, and startsWith for a Trie. eg: insert 'apple', search 'apple' → output true",
+        "tags": [
+          "dsa",
+          "trie"
+        ],
+        "slNo": 9
+      },
+      "Replace Words in a Sentence": {
+        "name": "Replace Words in a Sentence",
+        "details": "Replace words in a sentence with shortest matching prefix from dictionary. eg: input dict=['cat','bat'], sentence='the cattle was battered' → output 'the cat was bat'",
+        "tags": [
+          "dsa",
+          "trie"
+        ],
+        "slNo": 10
+      },
+      "Redundant Connection": {
+        "name": "Redundant Connection",
+        "details": "Find the extra edge that creates a cycle in a tree. eg: input edges=[[1,2],[1,3],[2,3]] → output [2,3]",
+        "tags": [
+          "dsa",
+          "unionfind"
+        ],
+        "slNo": 11
+      },
+      "Single Number": {
+        "name": "Single Number",
+        "details": "Find element appearing only once where others appear twice. eg: input [4,1,2,1,2] → output 4",
+        "tags": [
+          "dsa",
+          "bitmanipulation"
+        ],
+        "slNo": 12
+      },
+      "Counting Bits": {
+        "name": "Counting Bits",
+        "details": "Count number of 1s in binary representation for numbers 0 to n. eg: input n=5 → output [0,1,1,2,1,2]",
+        "tags": [
+          "dsa",
+          "bitmanipulation"
+        ],
+        "slNo": 13
+      },
+      "Rotate Image": {
+        "name": "Rotate Image",
+        "details": "Rotate an N×N matrix 90 degrees clockwise in-place. eg: input [[1,2],[3,4]] → output [[3,1],[4,2]]",
+        "tags": [
+          "dsa",
+          "matrix"
+        ],
+        "slNo": 15
+      },
+      "Largest Rectangle in Histogram": {
+        "name": "Largest Rectangle in Histogram",
+        "details": "Find area of largest rectangle in a histogram. eg: input [2,1,5,6,2,3] → output 10",
+        "tags": [
+          "dsa",
+          "monotonicstack"
+        ],
+        "slNo": 17
+      },
+      "Serialize and Deserialize Binary Tree": {
+        "name": "Serialize and Deserialize Binary Tree",
+        "details": "Convert a binary tree to a string and back. eg: input tree [1,2,3,null,null,4,5] → output same tree after serialize/deserialize",
+        "tags": [
+          "dsa",
+          "tree",
+          "bfs",
+          "dfs"
+        ],
+        "slNo": 21
+      },
+      "Range Sum Query - Segment Tree": {
+        "name": "Range Sum Query - Segment Tree",
+        "details": "Build a segment tree for fast range sum queries and updates. eg: input nums=[1,3,5], sumRange(0,2) → output 9",
+        "tags": [
+          "dsa",
+          "segmenttree"
+        ],
+        "slNo": 22
+      },
+      "Linked List Cycle Detection": {
+        "name": "Linked List Cycle Detection",
+        "details": "Detect if a linked list has a cycle. eg: input linked list with a cycle → output true",
+        "tags": [
+          "dsa",
+          "fastslowpointer",
+          "linkedlist"
+        ],
+        "slNo": 29
+      },
+      "Median of Two Sorted Arrays": {
+        "name": "Median of Two Sorted Arrays",
+        "details": "Find median value from two sorted arrays in O(log(min(m,n))). eg: input [1,3] and [2] → output 2.0",
+        "tags": [
+          "dsa",
+          "binarysearch"
+        ],
+        "lastTried": 0,
+        "slNo": 31
+      },
+      "Search in Rotated Sorted Array": {
+        "name": "Search in Rotated Sorted Array",
+        "details": "Search for target in a rotated sorted array. Return index or -1. eg: input [4,5,6,7,0,1,2], target 0 → output 4",
+        "tags": [
+          "dsa",
+          "binarysearch"
+        ],
+        "lastTried": 0,
+        "slNo": 32
+      },
+      "N-Queens": {
+        "name": "N-Queens",
+        "details": "Place N queens on a chessboard so that no two queens threaten each other. eg: input N=4 → output solutions placing 4 queens safely",
+        "tags": [
+          "dsa",
+          "backtracking"
+        ],
+        "slNo": 33
+      },
+      "Range Sum Query - Immutable": {
+        "name": "Range Sum Query - Immutable",
+        "details": "Precompute prefix sums to query subarray sums quickly. eg: input nums=[-2,0,3,-5,2,1], sumRange(0,2) → output 1",
+        "tags": [
+          "dsa",
+          "prefixsum"
+        ],
+        "slNo": 38
+      },
+      "Coin Change": {
+        "name": "Coin Change",
+        "details": "Find minimum coins needed to make a given amount. eg: coins=[1,2,5], amount=11 → output 3",
+        "tags": [
+          "dsa",
+          "dp"
+        ],
+        "slNo": 39
+      },
+      "Climbing Stairs": {
+        "name": "Climbing Stairs",
+        "details": "Count distinct ways to reach the top of stairs taking 1 or 2 steps. eg: input n=3 → output 3",
+        "tags": [
+          "dsa",
+          "dp"
+        ],
+        "slNo": 43
+      },
+      "Longest Increasing Subsequence": {
+        "name": "Longest Increasing Subsequence",
+        "details": "Find length of the longest increasing subsequence in an array. eg: input [10,9,2,5,3,7,101,18] → output 4",
+        "tags": [
+          "dsa",
+          "dp"
+        ],
+        "slNo": 44
+      },
+      "Edit Distance": {
+        "name": "Edit Distance",
+        "details": "Find minimum edits to convert one string to another. eg: input 'horse', 'ros' → output 3",
+        "tags": [
+          "dsa",
+          "dp"
+        ],
+        "slNo": 45
+      },
+      "Kth Largest Element in an Array": {
+        "name": "Kth Largest Element in an Array",
+        "details": "Find the Kth largest element in an unsorted array. eg: input [3,2,1,5,6,4], k=2 → output 5",
+        "tags": [
+          "dsa",
+          "heap"
+        ],
+        "slNo": 46
+      },
+      "Course Schedule (Topological Sort)": {
+        "name": "Course Schedule (Topological Sort)",
+        "details": "Check if you can finish all courses given prerequisites. eg: input numCourses=2, prerequisites=[[1,0]] → output true",
+        "tags": [
+          "dsa",
+          "graph",
+          "toposort"
+        ],
+        "attempt": 1,
+        "slNo": 47
+      },
+      "SOLID, DRY Revision": {
+        "name": "SOLID, DRY Revision",
+        "details": "Theory revision of solid dry principles",
+        "tags": [
+          "CS Concept"
+        ],
+        "slNo": 75
+      }
+    },
+    "completed": {
+      "Daily Temperature": {
+        "name": "Daily Temperature",
+        "details": "You are given an array of integers temperatures, representing the daily temperatures. Return an array answer such that answer[i] is the number of days you have to wait after the i-th day to get a warmer temperature.\nIf there is no future day for which this is possible, put 0 instead.\n\n💡 Example:\nInput:\n\njs\nCopy\nEdit\ntemperatures = [73, 74, 75, 71, 69, 72, 76, 73]\nOutput:\n\njs\nCopy\nEdit\n[1, 1, 4, 2, 1, 1, 0, 0]",
+        "tags": [
+          "stack"
+        ],
+        "slNo": 65,
+        "timeStamp": "2025-08-06T07:16:20.872Z",
+        "lastTried": "15 days ago",
+        "attempt": 2
+      },
+      "Find kth largest element ?": {
+        "name": "Find kth largest element ?",
+        "details": "Find kth largest element with the help of min heap.",
+        "tags": [
+          "heap",
+          "dsa"
+        ],
+        "slNo": 71,
+        "timeStamp": "2025-08-07T06:59:15.808Z",
+        "lastTried": "14 days ago",
+        "attempt": 1
+      },
+      "Paypal interview question": {
+        "name": "Paypal interview question",
+        "details": "Create a tool to list down all the avalable players and selected players in side by side . with select and remove buttons and upon clik of any row will pop up the modal with player details.",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 70,
+        "timeStamp": "2025-08-07T11:49:09.587Z",
+        "lastTried": "13 days ago",
+        "attempt": 1
+      },
+      "Traffic Light": {
+        "name": "Traffic Light",
+        "details": "Build a traffic light where the lights switch from green to yellow to red after predetermined intervals and loop indefinitely. Each light should be lit for the following durations:\n\nRed light: 4000ms\nYellow light: 500ms\nGreen light: 3000ms",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 62,
+        "timeStamp": "2025-08-07T15:34:54.547Z",
+        "lastTried": "13 days ago",
+        "attempt": 2
+      },
+      "Image Carousel": {
+        "name": "Image Carousel",
+        "details": "esign an image carousel component that displays a list of images one at a time, allowing the user to browse through them with pagination buttons.",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 63,
+        "timeStamp": "2025-08-07T15:48:09.480Z",
+        "lastTried": "13 days ago",
+        "attempt": 2
+      },
+      "File explorer": {
+        "name": "File explorer",
+        "details": "Given an array of file objects, build a component that displays them in a hierarchical tree format.\n\nThere are two types of objects – files and directories:\n\nFiles are essentially leaf nodes of the tree, they do not have children.\nDirectories can contain other objects – either files or directories.\nYou may assume that the IDs and names within the same directory are unique.",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 64,
+        "timeStamp": "2025-08-08T13:14:10.011Z",
+        "lastTried": "12 days ago",
+        "attempt": 2
+      },
+      "Modal dialogue": {
+        "name": "Modal dialogue",
+        "details": "Modal dialogs are interactive overlay windows that temporarily disable the main content of a web page, focusing user attention on specific tasks or information. They serve various purposes, including displaying critical alerts, requesting user input, confirming actions, and presenting additional content without navigating away from the current context.\n\nBuild a reusable modal dialog component that can be opened and closed with customizable title and contents.",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 66,
+        "timeStamp": "2025-08-08T14:16:48.267Z",
+        "lastTried": "12 days ago",
+        "attempt": 4
+      },
+      "Number to roman number": {
+        "name": "Number to roman number",
+        "details": "Convert a regular number to roman number\n\nconsole.log(\"Convert number to roman - 34\", numberToRoman(34));\n  console.log(\"Convert number to roman - 110\", numberToRoman(110));\n  console.log(\"Convert number to roman - 15\", numberToRoman(15));",
+        "tags": [
+          "strings",
+          "dsa"
+        ],
+        "slNo": 72,
+        "timeStamp": "2025-08-09T04:23:29.010Z",
+        "lastTried": "12 days ago",
+        "attempt": 1
+      },
+      "Trapping Rain Water": {
+        "name": "Trapping Rain Water",
+        "details": "Calculate how much water is trapped between bars of different heights. eg: input [0,1,0,2] → output 1",
+        "tags": [
+          "dsa",
+          "2pointer",
+          "stack"
+        ],
+        "slNo": 27,
+        "timeStamp": "2025-08-09T10:21:51.781Z",
+        "lastTried": "11 days ago",
+        "attempt": 2
+      },
+      "Spiral Matrix": {
+        "name": "Spiral Matrix",
+        "details": "Return matrix elements in spiral order. eg: input [[1,2],[3,4]] → output [1,2,4,3]",
+        "tags": [
+          "dsa",
+          "matrix"
+        ],
+        "slNo": 14,
+        "timeStamp": "2025-08-09T10:35:48.014Z",
+        "lastTried": "11 days ago",
+        "attempt": 2
+      },
+      "Permutations": {
+        "name": "Permutations",
+        "details": "Generate all permutations of a list of numbers. eg: input [1,2,3] → output [[1,2,3],[1,3,2],...]",
+        "tags": [
+          "dsa",
+          "backtracking"
+        ],
+        "slNo": 36,
+        "timeStamp": "2025-08-09T10:50:55.236Z",
+        "lastTried": "11 days ago",
+        "attempt": 2
+      },
+      "Palindrome Linked List": {
+        "name": "Palindrome Linked List",
+        "details": "Check if a linked list reads the same forward and backward. eg: input [1,2,2,1] → output true",
+        "tags": [
+          "dsa",
+          "2pointer",
+          "linkedlist"
+        ],
+        "slNo": 28,
+        "timeStamp": "2025-08-09T11:11:35.819Z",
+        "lastTried": "11 days ago",
+        "attempt": 2
+      },
+      "Create a file explorer problem with React or vanila js": {
+        "name": "Create a file explorer problem with React or vanila js",
+        "details": "Create a confluence like file explorer UI",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 48,
+        "timeStamp": "2025-08-09T11:15:22.051Z",
+        "lastTried": "11 days ago",
+        "attempt": 1
+      },
+      "Check if a string of brackets is valid": {
+        "name": "Check if a string of brackets is valid",
+        "details": "Input: \"({[]})\"\nOutput: true",
+        "tags": [
+          "js-reduce",
+          "hashmap",
+          "dsa",
+          "stack"
+        ],
+        "slNo": 52,
+        "timeStamp": "2025-08-09T11:25:48.214Z",
+        "lastTried": "11 days ago",
+        "attempt": 1
+      },
+      "Undoable Counter": {
+        "name": "Undoable Counter",
+        "details": "Build a counter with a history of the changes and ability to undo/redo actions. #GFE",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 67,
+        "timeStamp": "2025-08-09T12:38:50.899Z",
+        "lastTried": "11 days ago",
+        "attempt": 2
+      },
+      "Squash object": {
+        "name": "Squash object",
+        "details": "Implement a function that returns a new object after squashing the input object into a single level of depth where nested keys are \"squashed\" together with a period delimiter (.).\n\nconst object = {\n  a: 5,\n  b: 6,\n  c: {\n    f: 9,\n    g: {\n      m: 17,\n      n: 3,\n    },\n  },\n};\n\nsquashObject(object); // { a: 5, b: 6, 'c.f': 9, 'c.g.m': 17, 'c.g.n': 3 }",
+        "tags": [
+          "JS Utility"
+        ],
+        "slNo": 55,
+        "timeStamp": "2025-08-10T04:02:38.721Z",
+        "lastTried": "11 days ago",
+        "attempt": 3
+      },
+      "Find Element in Rotated Array": {
+        "name": "Find Element in Rotated Array",
+        "details": "Given a sorted and rotated array numbers containing unique elements and an integer target, return the index of target if it is in numbers, or -1 if it is not.\n\nRotating an array [a[0], a[1], a[2], ..., a[n-1]] once results in [a[n-1], a[0], a[1], a[2], ..., a[n-2]]. Rotating it a second time results in [a[n-2], a[n-1], a[0], a[1], ..., a[n-3]].\n\nDevelop an algorithm that runs in O(log n) time complexity.\n\nInput\nnumbers: number[]: An array of integers\ntarget: number: An integer\nInput: numbers = [0,1,2,3,4], target = 2\nOutput: 2\nExplanation: The original array [0,1,2,3,4] was rotated 0 times and 2 is present at 2nd index in given array",
+        "tags": [
+          "js-reduce",
+          "dsa",
+          "binarysearch"
+        ],
+        "slNo": 57,
+        "timeStamp": "2025-08-10T04:12:29.174Z",
+        "lastTried": "11 days ago",
+        "attempt": 3
+      },
+      "Optimal Stock Trading": {
+        "name": "Optimal Stock Trading",
+        "details": "Given a list of prices, where each element prices[i] represents the price of a particular stock on day i, determine the maximum profit to be made by purchasing the stock and selling it on a future date. If it is not possible to generate a profit, return 0.\n\nInput: prices = [1,2,3,4]\nOutput: 3\nExplanation: Buy the stock at day 1 (price = 1) and sell it on day 4 (price = 4), profit: 4 - 1 = ",
+        "tags": [
+          "greedy",
+          "dsa"
+        ],
+        "slNo": 58,
+        "timeStamp": "2025-08-10T04:16:55.795Z",
+        "lastTried": "11 days ago",
+        "attempt": 3
+      },
+      "Find the intersection of all arrays (i.e., elements common to every sub-array)": {
+        "name": "Find the intersection of all arrays (i.e., elements common to every sub-array)",
+        "details": "// input: [[\"A\", \"@#\", \"3\", \"Q\", \"B\", \"17\"],\n//     [\"Z\", \"1\", \"GO\", \"3\", \"A\", \"@#\", \"1\"],\n//     [\"T\", \"@#\", \"1\", \"A\", \"8\"],\n//     [\"100\", \"150\", \"@#\", \"300\", \"500\", \"1\", \"A\", \"SO\"]]\n\n// output: [\"A\", \"@#\" ]",
+        "tags": [
+          "js-reduce",
+          "dsa"
+        ],
+        "slNo": 51,
+        "timeStamp": "2025-08-10T04:18:12.555Z",
+        "lastTried": "11 days ago",
+        "attempt": 4
+      },
+      "Segment Words": {
+        "name": "Segment Words",
+        "details": "Given a string str and a list of words dict, determine if str can be segmented into a sequence of one or more words from dict. Words from dict can be reused multiple times in the segmentation.\n\nReturn true if it is possible to segment str, and false otherwise.\n\nInput: str = \"greatfrontendgreat\", dict = [\"frontend\",\"great\"]\nOutput: true\nExplanation: The string can be segmented as 'great' + 'frontend' + 'great' as we can re-use 'great'.",
+        "tags": [
+          "backtracking",
+          "dsa"
+        ],
+        "slNo": 60,
+        "timeStamp": "2025-08-10T04:19:33.481Z",
+        "lastTried": "11 days ago",
+        "attempt": 3
+      },
+      "🔹 Given an array of strings, group anagrams together.  js Copy Edit": {
+        "name": "🔹 Given an array of strings, group anagrams together.  js Copy Edit",
+        "details": "Input: [\"eat\", \"tea\", \"tan\", \"ate\", \"nat\", \"bat\"]\nOutput: [[\"eat\",\"tea\",\"ate\"], [\"tan\",\"nat\"], [\"bat\"]]",
+        "tags": [
+          "hashmap",
+          "strings",
+          "js-reduce"
+        ],
+        "slNo": 50,
+        "timeStamp": "2025-08-11T04:30:38.736Z",
+        "lastTried": "10 days ago",
+        "attempt": 4
+      },
+      "Insert new Interval": {
+        "name": "Insert new Interval",
+        "details": "Insert a new intervals to a listed intervals.",
+        "tags": [
+          "intervals"
+        ],
+        "slNo": 73,
+        "timeStamp": "2025-08-11T11:54:28.380Z",
+        "lastTried": "9 days ago",
+        "attempt": 1
+      },
+      "Map Async Limit": {
+        "name": "Map Async Limit",
+        "details": "async function fetchUpperCase(q: string) {\n  // Fake API service that converts a string to uppercase.\n  const res = await fetch('https://uppercase.com?q=' + encodeURIComponent(q));\n  return await res.text();\n}\n\n// Only a maximum of 2 pending requests at any one time.\nconst results = await mapAsyncLimit(\n  ['foo', 'bar', 'qux', 'quz'],\n  fetchUpperCase,\n  2,\n);\nconsole.log(results); // ['FOO', 'BAR', 'QUX', 'QUZ'];",
+        "tags": [
+          "JS Utility"
+        ],
+        "slNo": 56,
+        "timeStamp": "2025-08-11T13:26:27.854Z",
+        "lastTried": "9 days ago",
+        "attempt": 3
+      },
+      "Dice roller": {
+        "name": "Dice roller",
+        "details": "Build a dice roller app that simulates the results of rolling a specified number of 6-sided dice.\n\nRequirements\nThe user can specify the number of dice to roll using the input field and the value can be an integer between 1 to 12 inclusive.\nUpon clicking the \"Roll\" button, the dice roll is simulated and the results are displayed.\nThe results of the dice roll should be displayed in rows of three.\nThe example below shows a potential result of rolling 6 dice.\n\n",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 68,
+        "timeStamp": "2025-08-11T13:30:47.672Z",
+        "lastTried": "9 days ago",
+        "attempt": 2
+      },
+      "Group Anagrams": {
+        "name": "Group Anagrams",
+        "details": "Group words that are anagrams of each other. eg: input ['eat','tea','tan','ate'] → output [['eat','tea','ate'],['tan']]",
+        "tags": [
+          "dsa",
+          "hashmap",
+          "strings"
+        ],
+        "slNo": 37,
+        "timeStamp": "2025-08-11T13:30:56.085Z",
+        "lastTried": "9 days ago",
+        "attempt": 2
+      },
+      "Word Search": {
+        "name": "Word Search",
+        "details": "Check if a word exists in a 2D grid using DFS backtracking. eg: board=[['A','B'],['C','D']], word='ABCD' → output false",
+        "tags": [
+          "dsa",
+          "backtracking",
+          "matrix"
+        ],
+        "slNo": 42,
+        "timeStamp": "2025-08-11T13:32:53.716Z",
+        "lastTried": "9 days ago",
+        "attempt": 2
+      },
+      "Course Dependency": {
+        "name": "Course Dependency",
+        "details": "There are a set of courses numbered from 0 to courses - 1. Each course may have prerequisites that dictate the order in which the courses must be taken. These prerequisites are given as a list of pairs, where each pair [a, b] indicates that course b must be completed before course a.\n\nDetermine if it is possible to complete all courses without violating any prerequisite constraints. Return true if it is possible to complete all the courses; otherwise, return false.\nInput: courses = 4, prerequisites = [[1,0],[2,1],[3,2],[1,3]]\nOutput: false\nExplanation: There are 4 courses labeled from 0 to 3. The prerequisite relationships are as follows: course 1 requires course 0 to be completed first, course 2 requires course 1, course 3 requires course 2, and course 1 requires course 3. This creates a circular dependency: course 1 depends on course 3, which in turn depends on course 2, which then depends on course 1 again. Since it is impossible to break this cycle and complete all courses, the output is false.",
+        "tags": [
+          "dfs",
+          "dsa"
+        ],
+        "slNo": 59,
+        "timeStamp": "2025-08-11T14:01:28.163Z",
+        "lastTried": "9 days ago",
+        "attempt": 3
+      },
+      "Subsets": {
+        "name": "Subsets",
+        "details": "Return all possible subsets (power set) of a list. eg: input [1,2,3] → output [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]",
+        "tags": [
+          "dsa",
+          "backtracking"
+        ],
+        "slNo": 41,
+        "timeStamp": "2025-08-11T14:08:45.405Z",
+        "lastTried": "9 days ago",
+        "attempt": 2
+      },
+      "Binary Tree Inorder Traversal": {
+        "name": "Binary Tree Inorder Traversal",
+        "details": "Return inorder traversal of binary tree nodes’ values. eg: input tree [1,null,2,3] → output [1,3,2]",
+        "tags": [
+          "dsa",
+          "tree",
+          "dfs"
+        ],
+        "slNo": 19,
+        "timeStamp": "2025-08-11T14:09:01.955Z",
+        "lastTried": "9 days ago",
+        "attempt": 2
+      },
+      "Binary tree level order traversal": {
+        "name": "Binary tree level order traversal",
+        "details": "Implememnt a function to traverse binary tree in level order",
+        "tags": [
+          "tree",
+          "bfs"
+        ],
+        "slNo": 74,
+        "timeStamp": "2025-08-12T04:23:03.258Z",
+        "lastTried": "9 days ago",
+        "attempt": 1
+      },
+      "LRU Cache": {
+        "name": "LRU Cache",
+        "details": "Design a least recently used cache supporting get and put in O(1). eg: input put(1,1), put(2,2), get(1) → output 1",
+        "tags": [
+          "dsa",
+          "hashmap",
+          "design"
+        ],
+        "slNo": 40,
+        "timeStamp": "2025-08-16T04:53:04.767Z",
+        "lastTried": "5 days ago",
+        "attempt": 2
+      },
+      "Minimum Window Substring": {
+        "name": "Minimum Window Substring",
+        "details": "Find the minimum window substring containing all characters of another string. eg: input s='ADOBECODEBANC', t='ABC' → output 'BANC'",
+        "tags": [
+          "dsa",
+          "slidingwindow"
+        ],
+        "slNo": 35,
+        "timeStamp": "2025-08-19T03:00:17.595Z",
+        "lastTried": "2 days ago",
+        "attempt": 3
+      },
+      "Build deeplinking application with tabview": {
+        "name": "Build deeplinking application with tabview",
+        "details": "Build a tab view front end with deeplinking enabled",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 49,
+        "timeStamp": "2025-08-19T03:48:35.448Z",
+        "lastTried": "2 days ago",
+        "attempt": 3
+      },
+      "Next Greater Element": {
+        "name": "Next Greater Element",
+        "details": "Find the next greater element for each element in an array. eg: input [4,5,2,10] → output [5,10,10,-1]",
+        "tags": [
+          "dsa",
+          "monotonicstack"
+        ],
+        "slNo": 16,
+        "timeStamp": "2025-08-19T04:38:33.893Z",
+        "lastTried": "2 days ago",
+        "attempt": 3
+      },
+      "Number of Islands": {
+        "name": "Number of Islands",
+        "details": "Count the number of connected islands in a 2D grid. eg: input grid=[['1','1','0'],['0','1','0'],['0','0','1']] → output 2",
+        "tags": [
+          "dsa",
+          "graph",
+          "dfs",
+          "bfs"
+        ],
+        "slNo": 5,
+        "timeStamp": "2025-08-19T07:57:06.176Z",
+        "lastTried": "2 days ago",
+        "attempt": 2
+      },
+      "Maximum Subarray Sum (Kadane's)": {
+        "name": "Maximum Subarray Sum (Kadane's)",
+        "details": "Find contiguous subarray with the largest sum. eg: input [-2,1,-3,4,-1,2,1,-5,4] → output 6",
+        "tags": [
+          "dsa",
+          "dp"
+        ],
+        "slNo": 23,
+        "timeStamp": "2025-08-19T08:01:18.263Z",
+        "lastTried": "2 days ago",
+        "attempt": 2
+      },
+      "Find the longest palindrome substring from a string.": {
+        "name": "Find the longest palindrome substring from a string.",
+        "details": "console.log(\n    \"Find the longest palindromic substring: \",\n    longestPalindromicSubString(\"bbabcbcab\"),\n    longestPalindromicSubString(\"bbabcbaabcab\")\n  );",
+        "tags": [
+          "2pointer"
+        ],
+        "slNo": 69,
+        "timeStamp": "2025-08-19T09:08:29.988Z",
+        "lastTried": "2 days ago",
+        "attempt": 2
+      },
+      "Longest Substring Without Repeating Characters": {
+        "name": "Longest Substring Without Repeating Characters",
+        "details": "Find length of longest substring without repeating characters. eg: input 'abcabcbb' → output 3",
+        "tags": [
+          "dsa",
+          "slidingwindow"
+        ],
+        "slNo": 34,
+        "timeStamp": "2025-08-19T10:26:37.209Z",
+        "lastTried": "1 days ago",
+        "attempt": 2
+      },
+      "Jump Game": {
+        "name": "Jump Game",
+        "details": "Determine if you can reach the end of an array given max jump lengths. eg: input [2,3,1,1,4] → output true",
+        "tags": [
+          "dsa",
+          "greedy"
+        ],
+        "slNo": 2,
+        "timeStamp": "2025-08-19T11:09:55.722Z",
+        "lastTried": "1 days ago",
+        "attempt": 4
+      },
+      "Two Sum": {
+        "name": "Two Sum",
+        "details": "Find indices of two numbers that sum to a target. eg: input [2,7,11,15], target 9 → output [0,1]",
+        "tags": [
+          "dsa",
+          "hashmap"
+        ],
+        "slNo": 24,
+        "timeStamp": "2025-08-19T11:37:22.715Z",
+        "lastTried": "1 days ago",
+        "attempt": 2
+      },
+      "Reverse an Array": {
+        "name": "Reverse an Array",
+        "details": "Reverse elements of an array in-place. eg: input [1,2,3] → output [3,2,1]",
+        "tags": [
+          "dsa",
+          "2pointer"
+        ],
+        "slNo": 25,
+        "timeStamp": "2025-08-19T11:40:46.814Z",
+        "lastTried": "1 days ago",
+        "attempt": 2
+      },
+      "Validate Binary Search Tree": {
+        "name": "Validate Binary Search Tree",
+        "details": "Given the root of a binary tree, determine whether it is a valid binary search tree (BST).\n\nFor a tree to qualify as a valid BST, it must satisfy the following conditions:\n\nThe left subtree of a node only contains nodes with values less than the node's value\nThe right subtree of a node only contains nodes with values greater than the node's value\nBoth the left and right subtrees are also valid BSTs\nThe binary tree is represented by a collection of TreeNodes, where each node has optional left and right child nodes, which are also TreeNodes.\nInput: root = [10,5,15,1,8,12,20]\nOutput: true\nExplanation: The tree is a valid BST because all nodes follow the BST properties.",
+        "tags": [
+          "tree",
+          "dsa"
+        ],
+        "slNo": 66,
+        "timeStamp": "2025-08-19T12:01:34.155Z",
+        "lastTried": "1 days ago",
+        "attempt": 3
+      },
+      "Lowest Common Ancestor of BST": {
+        "name": "Lowest Common Ancestor of BST",
+        "details": "Find the lowest common ancestor of two nodes in a BST. eg: input root=[6,2,8], p=2, q=8 → output 6",
+        "tags": [
+          "dsa",
+          "tree"
+        ],
+        "slNo": 20,
+        "timeStamp": "2025-08-19T12:04:51.602Z",
+        "lastTried": "1 days ago",
+        "attempt": 3
+      },
+      "🔹 Product except self": {
+        "name": "🔹 Product except self",
+        "details": "input = [1, 2, 4, 6]; output: [48, 24, 12, 8]",
+        "tags": [
+          "prefixsum",
+          "dsa"
+        ],
+        "slNo": 53,
+        "timeStamp": "2025-08-20T14:46:54.140Z",
+        "lastTried": "18 hours ago",
+        "attempt": 4
+      },
+      "Subarray Sum Equals K": {
+        "name": "Subarray Sum Equals K",
+        "details": "Count number of subarrays whose sum equals k. eg: input [1,1,1], k=2 → output 2",
+        "tags": [
+          "dsa",
+          "prefixsum",
+          "hashmap"
+        ],
+        "slNo": 30,
+        "timeStamp": "2025-08-20T14:48:53.846Z",
+        "lastTried": "18 hours ago",
+        "attempt": 4
+      },
+      "Remove Duplicates from Sorted Array": {
+        "name": "Remove Duplicates from Sorted Array",
+        "details": "Remove duplicates from a sorted array in-place and return new length. eg: input [1,1,2] → output [1,2]",
+        "tags": [
+          "dsa",
+          "2pointer"
+        ],
+        "slNo": 26,
+        "timeStamp": "2025-08-20T14:51:00.691Z",
+        "lastTried": "18 hours ago",
+        "attempt": 4
+      },
+      "Word Ladder (a.k.a. Word Transformation)": {
+        "name": "Word Ladder (a.k.a. Word Transformation)",
+        "details": "Given two words:\n\nbeginWord and\n\nendWord,\n\nand a dictionary word list (wordList), transform the beginWord into the endWord one letter at a time, such that:\n\nEach intermediate word must exist in the word list.\n\nOnly one letter can be changed at a time.\n\nReturn the length of the shortest transformation sequence, or 0 if no such sequence exists.\nInput:\nbeginWord = \"hit\"\nendWord = \"cog\"\nwordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]\n\nOutput:\n5\n\nExplanation:\n\"hit\" -> \"hot\" -> \"dot\" -> \"dog\" -> \"cog\"",
+        "tags": [
+          "js-reduce",
+          "dsa",
+          "bfs"
+        ],
+        "slNo": 61,
+        "timeStamp": "2025-08-21T08:02:15.525Z",
+        "lastTried": "1 hours ago",
+        "attempt": 3
+      },
+      "Implement a rate limiter using the Fetch API and setTimeout/clearTimeout in the browser.": {
+        "name": "Implement a rate limiter using the Fetch API and setTimeout/clearTimeout in the browser.",
+        "details": "Problem Statement:\nYou're given a function fetchWithRateLimit(url) that wraps around fetch. Implement it so that:\n\nIt allows at most 1 request every 2 seconds\n\nIf multiple requests come in too quickly, they should be queued and executed in order\n\nIt should use setTimeout / clearTimeout (no third-party libraries or async queue libs)\n\n✅ Follow-up Expectations:\nUse of Web APIs: fetch, setTimeout, possibly AbortController\n\nUse of closure or internal state to manage the queue\n\nConsider how to abort requests if needed (bonus)\nInterview Discussion Starters:\nWhat happens if the page unloads mid-queue?\n\nHow would this change in a Node.js environment?\n\nCan we integrate with RequestIdleCallback or Web Workers?",
+        "tags": [
+          "Web API"
+        ],
+        "slNo": 54,
+        "timeStamp": "2025-08-21T09:25:20.917Z",
+        "lastTried": "2 minutes ago",
+        "attempt": 4
+      },
+      "Merge Sort is a classic Divide and Conquer algorithm that:  Recursively divides the array into halves until each subarray has one element.  Then merges those subarrays in a sorted manner.": {
+        "name": "Merge Sort is a classic Divide and Conquer algorithm that:  Recursively divides the array into halves until each subarray has one element.  Then merges those subarrays in a sorted manner.",
+        "details": "Divide the array into two halves.\n\nRecursively sort the left half and the right half.\n\nMerge the sorted halves into a single sorted array.",
+        "tags": [
+          "sort"
+        ],
+        "slNo": 61,
+        "timeStamp": "2025-08-21T09:27:05.457Z",
+        "lastTried": "0 minutes ago",
+        "attempt": 3
+      }
+    },
+    "total": 75
+  },
+  "Tech specific-front end": {
+    "todo": {
+      "Create a file explorer problem with React or vanila js": {
+        "name": "Create a file explorer problem with React or vanila js",
+        "details": "Create a confluence like file explorer UI",
+        "tags": [
+          "UI",
+          "ReactJs"
+        ],
+        "slNo": 1
+      },
+      "Build deeplinking application with tabview": {
+        "name": "Build deeplinking application with tabview",
+        "details": "Build a tab view front end with deeplinking enabled",
+        "tags": [
+          "UI",
+          "ReactJs"
+        ],
+        "slNo": 2
+      },
+      "Given an array of strings, group anagrams together.": {
+        "name": "Given an array of strings, group anagrams together.",
+        "details": "Input: [\"eat\", \"tea\", \"tan\", \"ate\", \"nat\", \"bat\"]\nOutput: [[\"eat\",\"tea\",\"ate\"], [\"tan\",\"nat\"], [\"bat\"]]",
+        "tags": [
+          "hashmap",
+          "strings"
+        ],
+        "slNo": 4
+      },
+      "Build basic HOC component in react js": {
+        "name": "Build basic HOC component in react js",
+        "details": "Create a basic HOC Component in react js which will logs clicks on click of a component which is being passed to the HOC",
+        "tags": [
+          "UI",
+          "ReactJs"
+        ],
+        "slNo": 5
+      },
+      "Javascript event loop": {
+        "name": "Javascript event loop",
+        "details": "Detailed revision of js event loop",
+        "tags": [
+          "JS Fundamental",
+          "Theory"
+        ],
+        "slNo": 7
+      },
+      "JS code snippet practice": {
+        "name": "JS code snippet practice",
+        "details": "Practice all the code snippets which can be asked in the first round of interview.",
+        "tags": [
+          "JS Fundamental",
+          "JS First round"
+        ],
+        "slNo": 8
+      },
+      "Javascript compilation steps": {
+        "name": "Javascript compilation steps",
+        "details": "Explore deep into javascript code compilatoinn steps and understand the nuances.",
+        "tags": [
+          "Theory",
+          "JS Fundamental"
+        ],
+        "slNo": 9
+      },
+      "JS event delegation real life example": {
+        "name": "JS event delegation real life example",
+        "details": "Explore javascript event delegation strategies.",
+        "tags": [
+          "JS Fundamental",
+          "Theory",
+          "JS Utility"
+        ],
+        "slNo": 10
+      },
+      "JS closure example.": {
+        "name": "JS closure example.",
+        "details": "JS closure theory study and practice problems.",
+        "tags": [
+          "JS Utility",
+          "JS Fundamental"
+        ],
+        "slNo": 11
+      },
+      "Javascript prototype study ": {
+        "name": "Javascript prototype study ",
+        "details": "Explore fundamentals of javascript prototype and related theory and practice problems.",
+        "tags": [
+          "JS First round",
+          "JS Fundamental",
+          "Theory"
+        ],
+        "slNo": 13
+      },
+      "Paypal interview question": {
+        "name": "Paypal interview question",
+        "details": "Create a tool to list down all the avalable players and selected players in side by side . with select and remove buttons and upon clik of any row will pop up the modal with player details.",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 14
+      },
+      "Build a drag and drop application": {
+        "name": "Build a drag and drop application",
+        "details": "Build a react application where you will have two lists and you need drag and drop items from either list to other and this will update the count of both sides.",
+        "tags": [
+          "ReactJs",
+          "UI"
+        ],
+        "slNo": 15
+      },
+      "Build a tab-content application in vanilla js.": {
+        "name": "Build a tab-content application in vanilla js.",
+        "details": "Build an application in vanilla js , where you need to have tabs which will show the respective contents upon clicking the tabs.",
+        "tags": [
+          "UI",
+          "Vanila JS UI",
+          "Web API"
+        ],
+        "slNo": 16
+      },
+      "React fundamental study": {
+        "name": "React fundamental study",
+        "details": "Study\n1. What is react , why is react etc\n2. Lifecycle methods\n3. React hooks, signatures and use cases\n4. axios interceptors\n5. Error handling in front end\n6. React , redux , saga\n7. State prop difference \n8. How to use state in application\n9. What is higher order component\n10. Error boundaries in reactjs",
+        "tags": [
+          "ReactJs"
+        ],
+        "slNo": 18
+      },
+      "Javascript fundamental study.": {
+        "name": "Javascript fundamental study.",
+        "details": "Study js theories.\n1. Closure.\n2. Eventloop.\n3. Event delegation.\n4. Promise Async.\n5. JS Compilation steps.\n6. Variable scope.\n7. this keyword.\n8. prototype.\n",
+        "tags": [
+          "JS First round",
+          "JS Fundamental"
+        ],
+        "slNo": 19
+      },
+      "Front end security principles revision": {
+        "name": "Front end security principles revision",
+        "details": "Revise all the important concept of front end security principles.",
+        "tags": [
+          "Web API"
+        ],
+        "slNo": 23
+      },
+      "Front end performance concepts revision": {
+        "name": "Front end performance concepts revision",
+        "details": "Revise all the important front end performance concepts.",
+        "tags": [
+          "Web API"
+        ],
+        "slNo": 24
+      },
+      "CORS concept with OPTIONS preflight with a auth flow in express": {
+        "name": "CORS concept with OPTIONS preflight with a auth flow in express",
+        "details": "Auth flow analysis",
+        "tags": [
+          "Web API"
+        ],
+        "slNo": 25
+      }
+    },
+    "completed": {
+      "Practice a Javascript proxy based problem.": {
+        "name": "Practice a Javascript proxy based problem.",
+        "details": "Practice javascript proxy concept with object and function variety.",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 17,
+        "timeStamp": "2025-08-07T10:43:25.571Z",
+        "lastTried": "13 days ago",
+        "attempt": 1
+      },
+      "Create a useOutsideClick react hook": {
+        "name": "Create a useOutsideClick react hook",
+        "details": "Create react hook to identify and act on outside click of a target DOM element.",
+        "tags": [
+          "UI",
+          "ReactJs"
+        ],
+        "slNo": 20,
+        "timeStamp": "2025-08-09T15:18:08.234Z",
+        "lastTried": "11 days ago",
+        "attempt": 1
+      },
+      "Create a promise timeout utility": {
+        "name": "Create a promise timeout utility",
+        "details": "When fetching data or performing other async operations, it is sometimes useful to set a timeout duration, i.e. enforce that a response is received before the timeout, otherwise deem the request a failed one.\n\nImplement a promiseTimeout function that accepts a promise and a timeout duration (in milliseconds) and returns a Promise. If the promise argument is settled within the timeout period, the returned promise is settled with the promise argument's settled value, which can be both resolved/rejected values. Otherwise, the returned promise will reject with the string \"Promise timeout\".\n\n\nfunction fakeFetch(latency) {\n  return new Promise((resolve, reject) => {\n    // Simulate an asynchronous operation that resolves after `latency`.\n    setTimeout(() => {\n      resolve('Data successfully fetched!');\n    }, latency);\n  });\n}\n\nconst response = await promiseTimeout(fakeFetch(1000), 2000);\nconsole.log(response); // Data successfully fetched!\n\nawait promiseTimeout(fakeFetch(5000), 2000);",
+        "tags": [
+          "UI",
+          "JS Fundamental",
+          "Async",
+          "JS Utility"
+        ],
+        "slNo": 21,
+        "timeStamp": "2025-08-09T15:22:53.893Z",
+        "lastTried": "11 days ago",
+        "attempt": 1
+      },
+      "Create a useDebounce": {
+        "name": "Create a useDebounce",
+        "details": "Create a use debounce hook to create debounced search keywords",
+        "tags": [
+          "UI",
+          "ReactJs"
+        ],
+        "slNo": 22,
+        "timeStamp": "2025-08-16T04:40:12.220Z",
+        "lastTried": "5 days ago",
+        "attempt": 1
+      },
+      "Basic Form validation": {
+        "name": "Basic Form validation",
+        "details": "Impliment form validation in react js with username and password validation password should be greater than 8 chars",
+        "tags": [
+          "UI",
+          "ReactJs"
+        ],
+        "slNo": 3,
+        "timeStamp": "2025-08-21T04:10:04.773Z",
+        "lastTried": "30 minutes ago",
+        "attempt": 2
+      },
+      "Create a custome hook with reactjs": {
+        "name": "Create a custome hook with reactjs",
+        "details": "Create a custome hook to set and get localstorage auth token.",
+        "tags": [
+          "ReactJs"
+        ],
+        "slNo": 6,
+        "timeStamp": "2025-08-21T04:40:50.027Z",
+        "lastTried": "0 minutes ago",
+        "attempt": 2
+      }
+    },
+    "total": 25
+  },
+  "Tech specific-full stack": {
+    "todo": {
+      "RESTful CRUD API with Validation and Error Handling": {
+        "name": "RESTful CRUD API with Validation and Error Handling",
+        "details": "Use Express.js for each service\n\nUse RabbitMQ or Redis Pub/Sub for messaging\n\nProperly structure code (routes, controllers, services)\n\nReturn correct status codes (201, 404, 400)\n\nUse Joi/Zod for input validation\n\nWrite Docker setup for each service (docker-compose)",
+        "tags": [
+          "Server",
+          "Network",
+          "Server"
+        ],
+        "slNo": 2
+      },
+      "PostgreSQL ACID Practice — Vessel Booking & Reassignment": {
+        "name": "PostgreSQL ACID Practice — Vessel Booking & Reassignment",
+        "details": "You're tasked with designing a vessel booking system where:\n\nOne vessel can only be booked to one port at a time\n\nPort capacity must not be exceeded\n\nReassignments must preserve consistency (roll back on error)\n\n🎯 Goals\nBuild a REST API using Express + PostgreSQL\n\nUse transactions to ensure:\n\nPort capacity updates correctly\n\nVessel's booking state is updated atomically\n\nReassignment rolls back on constraint violation",
+        "tags": [
+          "Server"
+        ],
+        "slNo": 3
+      },
+      "Build a basic autherisation authentication setup with node express": {
+        "name": "Build a basic autherisation authentication setup with node express",
+        "details": "Goal: Create a secure login system\n\nUse bcrypt for password hashing\n\nIssue and verify JWT tokens\n\nRestrict routes based on roles (admin, user, etc.)\n\n",
+        "tags": [
+          "Server"
+        ],
+        "slNo": 1,
+        "timeStamp": "2025-07-23T10:48:33.154Z"
+      },
+      "Build a microfront end application.": {
+        "name": "Build a microfront end application.",
+        "details": "Build a microfront end application with vue.js react.js and explore all the commmunication strategies can be used in the microfront end.",
+        "tags": [
+          "Fullstack"
+        ],
+        "slNo": 5
+      },
+      "Build application to explore the different process strategies in express / node server": {
+        "name": "Build application to explore the different process strategies in express / node server",
+        "details": "Analyse and explore the child process , fork, clustering etc.",
+        "tags": [
+          "Server",
+          "Fullstack"
+        ],
+        "slNo": 6
+      },
+      "Express Node fundamental study": {
+        "name": "Express Node fundamental study",
+        "details": "1. What is node 2. How to create server 3. What is middleware 4. what is for, cluster 5. How to do error handling in node/express 6. How to do loging in express 7. microservice communication 8. Routing in express.",
+        "tags": [
+          "Server"
+        ],
+        "slNo": 8
+      }
+    },
+    "completed": {
+      "Array flattening ": {
+        "name": "Array flattening ",
+        "details": "Solve the problem with javascript reduce",
+        "tags": [
+          "js-reduce"
+        ],
+        "slNo": 4,
+        "timeStamp": "2025-08-05T16:19:50.993Z",
+        "lastTried": "10 days ago",
+        "attempt": 1
+      },
+      "Implement a graphql server in the express.": {
+        "name": "Implement a graphql server in the express.",
+        "details": "Implement a graphql complex end points in the express server. consume it in the react front end app.",
+        "tags": [
+          "UI",
+          "Fullstack"
+        ],
+        "slNo": 7,
+        "timeStamp": "2025-08-07T07:56:19.172Z",
+        "lastTried": "8 days ago",
+        "attempt": 1
+      }
+    },
+    "total": 8
+  }
+}
