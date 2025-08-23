@@ -1,27 +1,27 @@
 function numberToRoman(num) {
   const romanMap = [
-    { value: 1000, symbol: "M" },
-    { value: 900, symbol: "CM" },
-    { value: 500, symbol: "D" },
-    { value: 400, symbol: "CD" },
-    { value: 100, symbol: "C" },
-    { value: 90, symbol: "XC" },
-    { value: 50, symbol: "L" },
-    { value: 40, symbol: "XL" },
-    { value: 10, symbol: "X" },
-    { value: 9, symbol: "IX" },
-    { value: 5, symbol: "V" },
-    { value: 4, symbol: "IV" },
-    { value: 1, symbol: "I" },
+    { value: 1000, rsymbol: "M" },
+    { value: 900, rsymbol: "CM" },
+    { value: 500, rsymbol: "D" },
+    { value: 400, rsymbol: "CD" },
+    { value: 100, rsymbol: "C" },
+    { value: 90, rsymbol: "XC" },
+    { value: 50, rsymbol: "L" },
+    { value: 40, rsymbol: "XL" },
+    { value: 10, rsymbol: "X" },
+    { value: 9, rsymbol: "IX" },
+    { value: 5, rsymbol: "V" },
+    { value: 4, rsymbol: "IV" },
+    { value: 1, rsymbol: "I" },
   ];
 
   let result = "";
   let targetNum = num;
-  for (const romData of romanMap) {
-    if (romData.value <= targetNum) {
-      const symbolCount = Math.floor(targetNum / romData.value);
-      result += romData.symbol.repeat(symbolCount);
-      targetNum = targetNum % romData.value;
+  for (const { value, rsymbol } of romanMap) {
+    if (value <= targetNum) {
+      const rsymbolCount = Math.floor(targetNum / value);
+      result += rsymbol.repeat(rsymbolCount);
+      targetNum = targetNum % value;
     }
   }
   return result;

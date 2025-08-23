@@ -8,15 +8,15 @@ function mergeInterval(intervals) {
   const mergedInterval = [sortedIntervals[0]];
 
   for (let i = 1; i < sortedIntervals.length; i++) {
-    const lastInterval = mergedInterval.at(-1);
     const currInterval = sortedIntervals[i];
+    const lastInterval = mergedInterval.at(-1);
     if (currInterval[0] <= lastInterval[1]) {
       lastInterval[1] = Math.max(lastInterval[1], currInterval[1]);
     } else {
-      mergeInterval.push(currInterval);
+      mergedInterval.push(currInterval);
     }
   }
-  return mergeInterval;
+  return mergedInterval;
 }
 
 export function mergeIntervalUtil() {

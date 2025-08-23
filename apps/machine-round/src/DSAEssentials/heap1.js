@@ -25,26 +25,25 @@ class MinHeap {
     return this.heap.at(-1);
   }
   _bubbleUp() {
-    let index = this.heap.length - 1;
-    const current = this.heap[index];
-
+    const index = this.heap.length - 1;
     while (index > 0) {
+      const current = this.heap.at(-1);
       const parentIndex = Math.floor((index - 1) / 2);
       const parent = this.heap[parentIndex];
 
-      if (parent <= current) break;
+      if (this.heap[parentIndex] < this.heap[index]) break;
 
       this.heap[parentIndex] = current;
-      this.heap[current] = parent;
+      this.heap[index] = parent;
       index = parentIndex;
     }
   }
 
   _bubbleDown() {
     let index = 0;
-    const len = this.heap.length;
-    let minimum = index;
+    let len = this.heap.length - 1;
     let current = this.heap[index];
+    let minimum = index;
 
     while (true) {
       const left = 2 * index + 1;
@@ -57,7 +56,7 @@ class MinHeap {
         minimum = right;
       }
 
-      if (index === minimum) break;
+      if (minimum === index) break;
 
       this.heap[index] = this.heap[minimum];
       this.heap[minimum] = current;

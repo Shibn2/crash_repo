@@ -3,10 +3,8 @@ function dailyTemperature(temperatures) {
   const res = Array(n).fill(0);
   const stack = []; // stores indices
 
-  console.log("Temperatures:", temperatures);
-  console.log("Temperatures:", Object.keys(temperatures));
   for (let i = n - 1; i >= 0; i--) {
-    while (stack.length > 0 && temperatures[i] > temperatures[stack.at(-1)]) {
+    if (stack.length > 0 && temperatures[i] > temperatures[stack.at(-1)]) {
       stack.pop();
     }
     if (stack.length > 0) {

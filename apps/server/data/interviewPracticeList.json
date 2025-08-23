@@ -79,24 +79,6 @@
         ],
         "slNo": 11
       },
-      "Single Number": {
-        "name": "Single Number",
-        "details": "Find element appearing only once where others appear twice. eg: input [4,1,2,1,2] → output 4",
-        "tags": [
-          "dsa",
-          "bitmanipulation"
-        ],
-        "slNo": 12
-      },
-      "Counting Bits": {
-        "name": "Counting Bits",
-        "details": "Count number of 1s in binary representation for numbers 0 to n. eg: input n=5 → output [0,1,1,2,1,2]",
-        "tags": [
-          "dsa",
-          "bitmanipulation"
-        ],
-        "slNo": 13
-      },
       "Rotate Image": {
         "name": "Rotate Image",
         "details": "Rotate an N×N matrix 90 degrees clockwise in-place. eg: input [[1,2],[3,4]] → output [[3,1],[4,2]]",
@@ -249,29 +231,6 @@
       }
     },
     "completed": {
-      "Daily Temperature": {
-        "name": "Daily Temperature",
-        "details": "You are given an array of integers temperatures, representing the daily temperatures. Return an array answer such that answer[i] is the number of days you have to wait after the i-th day to get a warmer temperature.\nIf there is no future day for which this is possible, put 0 instead.\n\n💡 Example:\nInput:\n\njs\nCopy\nEdit\ntemperatures = [73, 74, 75, 71, 69, 72, 76, 73]\nOutput:\n\njs\nCopy\nEdit\n[1, 1, 4, 2, 1, 1, 0, 0]",
-        "tags": [
-          "stack"
-        ],
-        "slNo": 65,
-        "timeStamp": "2025-08-06T07:16:20.872Z",
-        "lastTried": "15 days ago",
-        "attempt": 2
-      },
-      "Find kth largest element ?": {
-        "name": "Find kth largest element ?",
-        "details": "Find kth largest element with the help of min heap.",
-        "tags": [
-          "heap",
-          "dsa"
-        ],
-        "slNo": 71,
-        "timeStamp": "2025-08-07T06:59:15.808Z",
-        "lastTried": "14 days ago",
-        "attempt": 1
-      },
       "Paypal interview question": {
         "name": "Paypal interview question",
         "details": "Create a tool to list down all the avalable players and selected players in side by side . with select and remove buttons and upon clik of any row will pop up the modal with player details.",
@@ -280,7 +239,7 @@
         ],
         "slNo": 70,
         "timeStamp": "2025-08-07T11:49:09.587Z",
-        "lastTried": "13 days ago",
+        "lastTried": "14 days ago",
         "attempt": 1
       },
       "Traffic Light": {
@@ -291,7 +250,7 @@
         ],
         "slNo": 62,
         "timeStamp": "2025-08-07T15:34:54.547Z",
-        "lastTried": "13 days ago",
+        "lastTried": "14 days ago",
         "attempt": 2
       },
       "Image Carousel": {
@@ -302,7 +261,7 @@
         ],
         "slNo": 63,
         "timeStamp": "2025-08-07T15:48:09.480Z",
-        "lastTried": "13 days ago",
+        "lastTried": "14 days ago",
         "attempt": 2
       },
       "File explorer": {
@@ -313,7 +272,7 @@
         ],
         "slNo": 64,
         "timeStamp": "2025-08-08T13:14:10.011Z",
-        "lastTried": "12 days ago",
+        "lastTried": "13 days ago",
         "attempt": 2
       },
       "Modal dialogue": {
@@ -324,20 +283,8 @@
         ],
         "slNo": 66,
         "timeStamp": "2025-08-08T14:16:48.267Z",
-        "lastTried": "12 days ago",
+        "lastTried": "13 days ago",
         "attempt": 4
-      },
-      "Number to roman number": {
-        "name": "Number to roman number",
-        "details": "Convert a regular number to roman number\n\nconsole.log(\"Convert number to roman - 34\", numberToRoman(34));\n  console.log(\"Convert number to roman - 110\", numberToRoman(110));\n  console.log(\"Convert number to roman - 15\", numberToRoman(15));",
-        "tags": [
-          "strings",
-          "dsa"
-        ],
-        "slNo": 72,
-        "timeStamp": "2025-08-09T04:23:29.010Z",
-        "lastTried": "12 days ago",
-        "attempt": 1
       },
       "Trapping Rain Water": {
         "name": "Trapping Rain Water",
@@ -349,31 +296,7 @@
         ],
         "slNo": 27,
         "timeStamp": "2025-08-09T10:21:51.781Z",
-        "lastTried": "11 days ago",
-        "attempt": 2
-      },
-      "Spiral Matrix": {
-        "name": "Spiral Matrix",
-        "details": "Return matrix elements in spiral order. eg: input [[1,2],[3,4]] → output [1,2,4,3]",
-        "tags": [
-          "dsa",
-          "matrix"
-        ],
-        "slNo": 14,
-        "timeStamp": "2025-08-09T10:35:48.014Z",
-        "lastTried": "11 days ago",
-        "attempt": 2
-      },
-      "Permutations": {
-        "name": "Permutations",
-        "details": "Generate all permutations of a list of numbers. eg: input [1,2,3] → output [[1,2,3],[1,3,2],...]",
-        "tags": [
-          "dsa",
-          "backtracking"
-        ],
-        "slNo": 36,
-        "timeStamp": "2025-08-09T10:50:55.236Z",
-        "lastTried": "11 days ago",
+        "lastTried": "12 days ago",
         "attempt": 2
       },
       "Palindrome Linked List": {
@@ -386,7 +309,7 @@
         ],
         "slNo": 28,
         "timeStamp": "2025-08-09T11:11:35.819Z",
-        "lastTried": "11 days ago",
+        "lastTried": "12 days ago",
         "attempt": 2
       },
       "Create a file explorer problem with React or vanila js": {
@@ -397,7 +320,7 @@
         ],
         "slNo": 48,
         "timeStamp": "2025-08-09T11:15:22.051Z",
-        "lastTried": "11 days ago",
+        "lastTried": "12 days ago",
         "attempt": 1
       },
       "Check if a string of brackets is valid": {
@@ -411,7 +334,7 @@
         ],
         "slNo": 52,
         "timeStamp": "2025-08-09T11:25:48.214Z",
-        "lastTried": "11 days ago",
+        "lastTried": "12 days ago",
         "attempt": 1
       },
       "Undoable Counter": {
@@ -422,7 +345,7 @@
         ],
         "slNo": 67,
         "timeStamp": "2025-08-09T12:38:50.899Z",
-        "lastTried": "11 days ago",
+        "lastTried": "12 days ago",
         "attempt": 2
       },
       "Squash object": {
@@ -433,7 +356,7 @@
         ],
         "slNo": 55,
         "timeStamp": "2025-08-10T04:02:38.721Z",
-        "lastTried": "11 days ago",
+        "lastTried": "12 days ago",
         "attempt": 3
       },
       "Find Element in Rotated Array": {
@@ -446,7 +369,7 @@
         ],
         "slNo": 57,
         "timeStamp": "2025-08-10T04:12:29.174Z",
-        "lastTried": "11 days ago",
+        "lastTried": "12 days ago",
         "attempt": 3
       },
       "Optimal Stock Trading": {
@@ -458,7 +381,7 @@
         ],
         "slNo": 58,
         "timeStamp": "2025-08-10T04:16:55.795Z",
-        "lastTried": "11 days ago",
+        "lastTried": "12 days ago",
         "attempt": 3
       },
       "Find the intersection of all arrays (i.e., elements common to every sub-array)": {
@@ -470,7 +393,7 @@
         ],
         "slNo": 51,
         "timeStamp": "2025-08-10T04:18:12.555Z",
-        "lastTried": "11 days ago",
+        "lastTried": "12 days ago",
         "attempt": 4
       },
       "Segment Words": {
@@ -482,7 +405,7 @@
         ],
         "slNo": 60,
         "timeStamp": "2025-08-10T04:19:33.481Z",
-        "lastTried": "11 days ago",
+        "lastTried": "12 days ago",
         "attempt": 3
       },
       "🔹 Given an array of strings, group anagrams together.  js Copy Edit": {
@@ -495,19 +418,8 @@
         ],
         "slNo": 50,
         "timeStamp": "2025-08-11T04:30:38.736Z",
-        "lastTried": "10 days ago",
+        "lastTried": "11 days ago",
         "attempt": 4
-      },
-      "Insert new Interval": {
-        "name": "Insert new Interval",
-        "details": "Insert a new intervals to a listed intervals.",
-        "tags": [
-          "intervals"
-        ],
-        "slNo": 73,
-        "timeStamp": "2025-08-11T11:54:28.380Z",
-        "lastTried": "9 days ago",
-        "attempt": 1
       },
       "Map Async Limit": {
         "name": "Map Async Limit",
@@ -517,7 +429,7 @@
         ],
         "slNo": 56,
         "timeStamp": "2025-08-11T13:26:27.854Z",
-        "lastTried": "9 days ago",
+        "lastTried": "10 days ago",
         "attempt": 3
       },
       "Dice roller": {
@@ -528,7 +440,7 @@
         ],
         "slNo": 68,
         "timeStamp": "2025-08-11T13:30:47.672Z",
-        "lastTried": "9 days ago",
+        "lastTried": "10 days ago",
         "attempt": 2
       },
       "Group Anagrams": {
@@ -541,7 +453,7 @@
         ],
         "slNo": 37,
         "timeStamp": "2025-08-11T13:30:56.085Z",
-        "lastTried": "9 days ago",
+        "lastTried": "10 days ago",
         "attempt": 2
       },
       "Word Search": {
@@ -554,7 +466,7 @@
         ],
         "slNo": 42,
         "timeStamp": "2025-08-11T13:32:53.716Z",
-        "lastTried": "9 days ago",
+        "lastTried": "10 days ago",
         "attempt": 2
       },
       "Course Dependency": {
@@ -566,7 +478,7 @@
         ],
         "slNo": 59,
         "timeStamp": "2025-08-11T14:01:28.163Z",
-        "lastTried": "9 days ago",
+        "lastTried": "10 days ago",
         "attempt": 3
       },
       "Subsets": {
@@ -578,7 +490,7 @@
         ],
         "slNo": 41,
         "timeStamp": "2025-08-11T14:08:45.405Z",
-        "lastTried": "9 days ago",
+        "lastTried": "10 days ago",
         "attempt": 2
       },
       "Binary Tree Inorder Traversal": {
@@ -591,7 +503,7 @@
         ],
         "slNo": 19,
         "timeStamp": "2025-08-11T14:09:01.955Z",
-        "lastTried": "9 days ago",
+        "lastTried": "10 days ago",
         "attempt": 2
       },
       "Binary tree level order traversal": {
@@ -603,7 +515,7 @@
         ],
         "slNo": 74,
         "timeStamp": "2025-08-12T04:23:03.258Z",
-        "lastTried": "9 days ago",
+        "lastTried": "10 days ago",
         "attempt": 1
       },
       "LRU Cache": {
@@ -616,7 +528,7 @@
         ],
         "slNo": 40,
         "timeStamp": "2025-08-16T04:53:04.767Z",
-        "lastTried": "5 days ago",
+        "lastTried": "6 days ago",
         "attempt": 2
       },
       "Minimum Window Substring": {
@@ -628,7 +540,7 @@
         ],
         "slNo": 35,
         "timeStamp": "2025-08-19T03:00:17.595Z",
-        "lastTried": "2 days ago",
+        "lastTried": "3 days ago",
         "attempt": 3
       },
       "Build deeplinking application with tabview": {
@@ -639,7 +551,7 @@
         ],
         "slNo": 49,
         "timeStamp": "2025-08-19T03:48:35.448Z",
-        "lastTried": "2 days ago",
+        "lastTried": "3 days ago",
         "attempt": 3
       },
       "Next Greater Element": {
@@ -651,7 +563,7 @@
         ],
         "slNo": 16,
         "timeStamp": "2025-08-19T04:38:33.893Z",
-        "lastTried": "2 days ago",
+        "lastTried": "3 days ago",
         "attempt": 3
       },
       "Number of Islands": {
@@ -665,7 +577,7 @@
         ],
         "slNo": 5,
         "timeStamp": "2025-08-19T07:57:06.176Z",
-        "lastTried": "2 days ago",
+        "lastTried": "3 days ago",
         "attempt": 2
       },
       "Maximum Subarray Sum (Kadane's)": {
@@ -677,7 +589,7 @@
         ],
         "slNo": 23,
         "timeStamp": "2025-08-19T08:01:18.263Z",
-        "lastTried": "2 days ago",
+        "lastTried": "3 days ago",
         "attempt": 2
       },
       "Find the longest palindrome substring from a string.": {
@@ -700,7 +612,7 @@
         ],
         "slNo": 34,
         "timeStamp": "2025-08-19T10:26:37.209Z",
-        "lastTried": "1 days ago",
+        "lastTried": "2 days ago",
         "attempt": 2
       },
       "Jump Game": {
@@ -712,7 +624,7 @@
         ],
         "slNo": 2,
         "timeStamp": "2025-08-19T11:09:55.722Z",
-        "lastTried": "1 days ago",
+        "lastTried": "2 days ago",
         "attempt": 4
       },
       "Two Sum": {
@@ -724,7 +636,7 @@
         ],
         "slNo": 24,
         "timeStamp": "2025-08-19T11:37:22.715Z",
-        "lastTried": "1 days ago",
+        "lastTried": "2 days ago",
         "attempt": 2
       },
       "Reverse an Array": {
@@ -736,7 +648,7 @@
         ],
         "slNo": 25,
         "timeStamp": "2025-08-19T11:40:46.814Z",
-        "lastTried": "1 days ago",
+        "lastTried": "2 days ago",
         "attempt": 2
       },
       "Validate Binary Search Tree": {
@@ -748,7 +660,7 @@
         ],
         "slNo": 66,
         "timeStamp": "2025-08-19T12:01:34.155Z",
-        "lastTried": "1 days ago",
+        "lastTried": "2 days ago",
         "attempt": 3
       },
       "Lowest Common Ancestor of BST": {
@@ -760,7 +672,7 @@
         ],
         "slNo": 20,
         "timeStamp": "2025-08-19T12:04:51.602Z",
-        "lastTried": "1 days ago",
+        "lastTried": "2 days ago",
         "attempt": 3
       },
       "🔹 Product except self": {
@@ -772,7 +684,7 @@
         ],
         "slNo": 53,
         "timeStamp": "2025-08-20T14:46:54.140Z",
-        "lastTried": "18 hours ago",
+        "lastTried": "1 days ago",
         "attempt": 4
       },
       "Subarray Sum Equals K": {
@@ -785,7 +697,7 @@
         ],
         "slNo": 30,
         "timeStamp": "2025-08-20T14:48:53.846Z",
-        "lastTried": "18 hours ago",
+        "lastTried": "1 days ago",
         "attempt": 4
       },
       "Remove Duplicates from Sorted Array": {
@@ -797,7 +709,7 @@
         ],
         "slNo": 26,
         "timeStamp": "2025-08-20T14:51:00.691Z",
-        "lastTried": "18 hours ago",
+        "lastTried": "1 days ago",
         "attempt": 4
       },
       "Word Ladder (a.k.a. Word Transformation)": {
@@ -810,7 +722,7 @@
         ],
         "slNo": 61,
         "timeStamp": "2025-08-21T08:02:15.525Z",
-        "lastTried": "1 hours ago",
+        "lastTried": "1 days ago",
         "attempt": 3
       },
       "Implement a rate limiter using the Fetch API and setTimeout/clearTimeout in the browser.": {
@@ -821,7 +733,7 @@
         ],
         "slNo": 54,
         "timeStamp": "2025-08-21T09:25:20.917Z",
-        "lastTried": "2 minutes ago",
+        "lastTried": "23 hours ago",
         "attempt": 4
       },
       "Merge Sort is a classic Divide and Conquer algorithm that:  Recursively divides the array into halves until each subarray has one element.  Then merges those subarrays in a sorted manner.": {
@@ -832,8 +744,102 @@
         ],
         "slNo": 61,
         "timeStamp": "2025-08-21T09:27:05.457Z",
-        "lastTried": "0 minutes ago",
+        "lastTried": "23 hours ago",
         "attempt": 3
+      },
+      "Daily Temperature": {
+        "name": "Daily Temperature",
+        "details": "You are given an array of integers temperatures, representing the daily temperatures. Return an array answer such that answer[i] is the number of days you have to wait after the i-th day to get a warmer temperature.\nIf there is no future day for which this is possible, put 0 instead.\n\n💡 Example:\nInput:\n\njs\nCopy\nEdit\ntemperatures = [73, 74, 75, 71, 69, 72, 76, 73]\nOutput:\n\njs\nCopy\nEdit\n[1, 1, 4, 2, 1, 1, 0, 0]",
+        "tags": [
+          "stack"
+        ],
+        "slNo": 65,
+        "timeStamp": "2025-08-22T02:33:49.653Z",
+        "lastTried": "5 hours ago",
+        "attempt": 3
+      },
+      "Find kth largest element ?": {
+        "name": "Find kth largest element ?",
+        "details": "Find kth largest element with the help of min heap.",
+        "tags": [
+          "heap",
+          "dsa"
+        ],
+        "slNo": 71,
+        "timeStamp": "2025-08-22T03:06:18.339Z",
+        "lastTried": "5 hours ago",
+        "attempt": 2
+      },
+      "Number to roman number": {
+        "name": "Number to roman number",
+        "details": "Convert a regular number to roman number\n\nconsole.log(\"Convert number to roman - 34\", numberToRoman(34));\n  console.log(\"Convert number to roman - 110\", numberToRoman(110));\n  console.log(\"Convert number to roman - 15\", numberToRoman(15));",
+        "tags": [
+          "strings",
+          "dsa"
+        ],
+        "slNo": 72,
+        "timeStamp": "2025-08-22T03:17:23.610Z",
+        "lastTried": "5 hours ago",
+        "attempt": 2
+      },
+      "Single Number": {
+        "name": "Single Number",
+        "details": "Find element appearing only once where others appear twice. eg: input [4,1,2,1,2] → output 4",
+        "tags": [
+          "dsa",
+          "bitmanipulation"
+        ],
+        "slNo": 12,
+        "timeStamp": "2025-08-22T03:34:45.885Z",
+        "lastTried": "4 hours ago",
+        "attempt": 1
+      },
+      "Counting Bits": {
+        "name": "Counting Bits",
+        "details": "Count number of 1s in binary representation for numbers 0 to n. eg: input n=5 → output [0,1,1,2,1,2]",
+        "tags": [
+          "dsa",
+          "bitmanipulation"
+        ],
+        "slNo": 13,
+        "timeStamp": "2025-08-22T03:43:41.489Z",
+        "lastTried": "4 hours ago",
+        "attempt": 1
+      },
+      "Spiral Matrix": {
+        "name": "Spiral Matrix",
+        "details": "Return matrix elements in spiral order. eg: input [[1,2],[3,4]] → output [1,2,4,3]",
+        "tags": [
+          "dsa",
+          "matrix"
+        ],
+        "slNo": 14,
+        "timeStamp": "2025-08-22T03:44:39.527Z",
+        "lastTried": "4 hours ago",
+        "attempt": 3
+      },
+      "Permutations": {
+        "name": "Permutations",
+        "details": "Generate all permutations of a list of numbers. eg: input [1,2,3] → output [[1,2,3],[1,3,2],...]",
+        "tags": [
+          "dsa",
+          "backtracking"
+        ],
+        "slNo": 36,
+        "timeStamp": "2025-08-22T03:46:00.893Z",
+        "lastTried": "4 hours ago",
+        "attempt": 3
+      },
+      "Insert new Interval": {
+        "name": "Insert new Interval",
+        "details": "Insert a new intervals to a listed intervals.",
+        "tags": [
+          "intervals"
+        ],
+        "slNo": 73,
+        "timeStamp": "2025-08-22T07:18:28.565Z",
+        "lastTried": "1 hours ago",
+        "attempt": 2
       }
     },
     "total": 75

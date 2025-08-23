@@ -65,6 +65,9 @@ import topKElementsUtil from "./DSAEssentials/heap1";
 import numberToRomanUtil from "./DSAEssentials/numberToRoman";
 import insertIntervalUtil from "./DSAEssentials/interval3";
 import bstLevelOrderTraversalUtil from "./DSAEssentials/bst4";
+import findTheSingleNumberUtil from "./DSAEssentials/bit1";
+import countBitsUtil from "./DSAEssentials/bit2";
+import firstRoundClosureUtil from "./JSChallenges/firstRound";
 
 const moduleData = {
   DSAEssentials: [
@@ -120,6 +123,8 @@ const moduleData = {
     numberToRomanUtil,
     insertIntervalUtil,
     bstLevelOrderTraversalUtil,
+    findTheSingleNumberUtil,
+    countBitsUtil,
   ],
   JSChallenges: [
     currNUtil,
@@ -137,6 +142,7 @@ const moduleData = {
     getElementsByTagNameUtil,
     intersectionOfArrayUtil,
     mapAsyncUtil,
+    firstRoundClosureUtil,
   ],
   Tuts: [accountDataUtil, reduceApplications],
 };
