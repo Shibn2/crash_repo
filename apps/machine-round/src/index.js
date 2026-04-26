@@ -24,7 +24,7 @@ import { promiseMergeUtil } from "./JSChallenges/gfePromiseMerge";
 import { asyncPipeUtil, pipeUtil } from "./JSChallenges/pipe";
 import { promiseV5Util } from "./JSChallenges/promise";
 import { inheritanceUtil } from "./JSChallenges/prototype";
-import { proxyUtil } from "./JSChallenges/proxy";
+import { proxyUtil, proxyUtil2 } from "./JSChallenges/proxy";
 import { reduceApplications } from "./Tuts/arrayInbuiltUseCases";
 import accountDataUtil from "./Tuts/jsEventLoop1";
 import subarraySumEqualsKUtil from "./DSAEssentials/prefixSum2";
@@ -68,6 +68,33 @@ import bstLevelOrderTraversalUtil from "./DSAEssentials/bst4";
 import findTheSingleNumberUtil from "./DSAEssentials/bit1";
 import countBitsUtil from "./DSAEssentials/bit2";
 import firstRoundClosureUtil from "./JSChallenges/firstRound";
+import insertionSortUtil from "./DSAEssentials/sort3";
+import linkedListCycleUtil from "./DSAEssentials/linkedList3";
+import graphCloneUtil from "./DSAEssentials/graph4";
+import minMeetingRoomsUtil from "./DSAEssentials/interval4";
+import createResumableInterval, {
+  promisePolifillsRejectUtils,
+  promiseResolveUtil,
+  resumableIntervalUtil,
+  withResolversUtil,
+} from "./JSChallenges/promise-polifills";
+import { singletonPatternStudy } from "./JSChallenges/designPatterns1";
+import { observerPatternStudy } from "./JSChallenges/designPattern2";
+import { round1UtilityFile2 } from "./JSChallenges/round1.1";
+import {
+  round1ArrowFn,
+  round1Function,
+  round1IIFE,
+  round1IIFE2,
+  round1Promise,
+  round1SetTimeout,
+  round1This,
+  round1Var,
+  VariablesStudy,
+} from "./JSChallenges/round1.2";
+import { rotateImageUtil } from "./DSAEssentials/matrix2";
+import lISutil from "./DSAEssentials/dp1";
+import bstFundamentalsUtil from "./DSAEssentials/bst5";
 
 const moduleData = {
   DSAEssentials: [
@@ -125,6 +152,13 @@ const moduleData = {
     bstLevelOrderTraversalUtil,
     findTheSingleNumberUtil,
     countBitsUtil,
+    insertionSortUtil,
+    linkedListCycleUtil,
+    graphCloneUtil,
+    minMeetingRoomsUtil,
+    rotateImageUtil,
+    lISutil,
+    bstFundamentalsUtil,
   ],
   JSChallenges: [
     currNUtil,
@@ -143,6 +177,25 @@ const moduleData = {
     intersectionOfArrayUtil,
     mapAsyncUtil,
     firstRoundClosureUtil,
+    promisePolifillsRejectUtils,
+    resumableIntervalUtil,
+    promiseResolveUtil,
+    withResolversUtil,
+    proxyUtil2,
+    singletonPatternStudy,
+    observerPatternStudy,
+  ],
+  round1: [
+    round1UtilityFile2,
+    round1Var,
+    round1SetTimeout,
+    round1This,
+    round1Promise,
+    round1Function,
+    round1IIFE,
+    round1IIFE2,
+    round1ArrowFn,
+    VariablesStudy,
   ],
   Tuts: [accountDataUtil, reduceApplications],
 };

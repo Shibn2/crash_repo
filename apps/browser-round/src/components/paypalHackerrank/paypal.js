@@ -28,7 +28,6 @@ function Paypal() {
       };
     });
     setSelectedPlayers((prev) => {
-      console.log("prev", prev, "selectedPlayer", selectedPlayer);
       return {
         ...prev,
         [selectedPlayer.id]: selectedPlayer,

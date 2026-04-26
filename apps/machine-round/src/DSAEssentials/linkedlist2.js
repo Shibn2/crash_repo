@@ -5,13 +5,13 @@ function LinkedList(val) {
 
 function reverseList(list) {
   let prev = null;
-  let current = list;
+  let curr = list;
 
-  while (current) {
-    let next = current.next;
-    current.next = prev;
-    prev = current;
-    current = next;
+  while (curr) {
+    const next = curr.next;
+    curr.next = prev;
+    prev = curr;
+    curr = next;
   }
   return prev;
 }
@@ -19,24 +19,23 @@ function reverseList(list) {
 function isPalindromeLinkedList(list) {
   let fast = list;
   let slow = list;
-
   while (fast && fast.next) {
-    slow = slow.next;
     fast = fast.next.next;
+    slow = slow.next;
   }
 
-  let reversedSecondHalf = reverseList(slow);
+  let reversedSecHalf = reverseList(slow);
   let firstHalf = list;
   let isPalin = true;
-  while (firstHalf.next && reversedSecondHalf.next) {
-    if (firstHalf.value !== reversedSecondHalf.value) {
+
+  while (reversedSecHalf.next && firstHalf.next) {
+    if (reversedSecHalf.value !== firstHalf.value) {
       isPalin = false;
       break;
     }
     firstHalf = firstHalf.next;
-    reversedSecondHalf = reversedSecondHalf.next;
+    reversedSecHalf = reversedSecHalf.next;
   }
-
   return isPalin;
 }
 
@@ -54,5 +53,5 @@ export default function isPalindromeLinkedListUtil() {
   l2.next.next.next.next = new LinkedList(1);
 
   console.log("Is palindrom linked list", isPalindromeLinkedList(l1));
-  console.log("Is palindrom linked list 2", isPalindromeLinkedList(l2));
+  // console.log("Is palindrom linked list 2", isPalindromeLinkedList(l2));
 }

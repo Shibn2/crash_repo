@@ -1,7 +1,7 @@
 function subsets(list) {
   const out = [];
+
   function backtrack(start = 0, current = []) {
-    console.log("->Out", JSON.stringify(current));
     out.push([...current]);
 
     for (let idx = start; idx < list.length; idx++) {
@@ -10,6 +10,7 @@ function subsets(list) {
       current.pop();
     }
   }
+
   backtrack();
   return out;
 }

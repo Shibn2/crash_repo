@@ -1,18 +1,17 @@
 function twoSum(arr, target) {
   let l = 0;
   let r = arr.length - 1;
-
   while (l < r) {
     const sum = arr[l] + arr[r];
-    if (sum > target) {
+    if (sum === target) {
+      return [l, r];
+    } else if (sum > target) {
       r--;
-    } else if (sum < target) {
-      l++;
     } else {
-      break;
+      l++;
     }
   }
-  return [l, r];
+  return [-1, -1];
 }
 
 export default function twoSumUtil() {

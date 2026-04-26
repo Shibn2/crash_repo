@@ -1,16 +1,6 @@
 {
   "Product company": {
     "todo": {
-      "Interval Scheduling (Meeting Rooms II)": {
-        "name": "Interval Scheduling (Meeting Rooms II)",
-        "details": "Find minimum number of meeting rooms required for all intervals. eg: input [[0,30],[5,10],[15,20]] → output 2",
-        "tags": [
-          "dsa",
-          "greedy",
-          "intervals"
-        ],
-        "slNo": 1
-      },
       "Merge K Sorted Lists": {
         "name": "Merge K Sorted Lists",
         "details": "Merge K sorted linked lists into one sorted list. eg: input lists=[[1,4,5],[1,3,4],[2,6]] → output [1,1,2,3,4,4,5,6]",
@@ -30,17 +20,6 @@
           "hashmap"
         ],
         "slNo": 4
-      },
-      "Clone Graph": {
-        "name": "Clone Graph",
-        "details": "Clone an undirected graph. eg: input graph node with value 1 connected to 2 and 3 → output cloned graph",
-        "tags": [
-          "dsa",
-          "graph",
-          "dfs",
-          "bfs"
-        ],
-        "slNo": 6
       },
       "Alien Dictionary": {
         "name": "Alien Dictionary",
@@ -79,15 +58,6 @@
         ],
         "slNo": 11
       },
-      "Rotate Image": {
-        "name": "Rotate Image",
-        "details": "Rotate an N×N matrix 90 degrees clockwise in-place. eg: input [[1,2],[3,4]] → output [[3,1],[4,2]]",
-        "tags": [
-          "dsa",
-          "matrix"
-        ],
-        "slNo": 15
-      },
       "Largest Rectangle in Histogram": {
         "name": "Largest Rectangle in Histogram",
         "details": "Find area of largest rectangle in a histogram. eg: input [2,1,5,6,2,3] → output 10",
@@ -116,16 +86,6 @@
           "segmenttree"
         ],
         "slNo": 22
-      },
-      "Linked List Cycle Detection": {
-        "name": "Linked List Cycle Detection",
-        "details": "Detect if a linked list has a cycle. eg: input linked list with a cycle → output true",
-        "tags": [
-          "dsa",
-          "fastslowpointer",
-          "linkedlist"
-        ],
-        "slNo": 29
       },
       "Median of Two Sorted Arrays": {
         "name": "Median of Two Sorted Arrays",
@@ -183,15 +143,6 @@
         ],
         "slNo": 43
       },
-      "Longest Increasing Subsequence": {
-        "name": "Longest Increasing Subsequence",
-        "details": "Find length of the longest increasing subsequence in an array. eg: input [10,9,2,5,3,7,101,18] → output 4",
-        "tags": [
-          "dsa",
-          "dp"
-        ],
-        "slNo": 44
-      },
       "Edit Distance": {
         "name": "Edit Distance",
         "details": "Find minimum edits to convert one string to another. eg: input 'horse', 'ros' → output 3",
@@ -228,53 +179,18 @@
           "CS Concept"
         ],
         "slNo": 75
+      },
+      "TEST": {
+        "name": "TEST",
+        "details": "TEST",
+        "tags": [
+          "TEST"
+        ],
+        "userId": 1,
+        "slNo": 76
       }
     },
     "completed": {
-      "Paypal interview question": {
-        "name": "Paypal interview question",
-        "details": "Create a tool to list down all the avalable players and selected players in side by side . with select and remove buttons and upon clik of any row will pop up the modal with player details.",
-        "tags": [
-          "UI"
-        ],
-        "slNo": 70,
-        "timeStamp": "2025-08-07T11:49:09.587Z",
-        "lastTried": "14 days ago",
-        "attempt": 1
-      },
-      "Traffic Light": {
-        "name": "Traffic Light",
-        "details": "Build a traffic light where the lights switch from green to yellow to red after predetermined intervals and loop indefinitely. Each light should be lit for the following durations:\n\nRed light: 4000ms\nYellow light: 500ms\nGreen light: 3000ms",
-        "tags": [
-          "UI"
-        ],
-        "slNo": 62,
-        "timeStamp": "2025-08-07T15:34:54.547Z",
-        "lastTried": "14 days ago",
-        "attempt": 2
-      },
-      "Image Carousel": {
-        "name": "Image Carousel",
-        "details": "esign an image carousel component that displays a list of images one at a time, allowing the user to browse through them with pagination buttons.",
-        "tags": [
-          "UI"
-        ],
-        "slNo": 63,
-        "timeStamp": "2025-08-07T15:48:09.480Z",
-        "lastTried": "14 days ago",
-        "attempt": 2
-      },
-      "File explorer": {
-        "name": "File explorer",
-        "details": "Given an array of file objects, build a component that displays them in a hierarchical tree format.\n\nThere are two types of objects – files and directories:\n\nFiles are essentially leaf nodes of the tree, they do not have children.\nDirectories can contain other objects – either files or directories.\nYou may assume that the IDs and names within the same directory are unique.",
-        "tags": [
-          "UI"
-        ],
-        "slNo": 64,
-        "timeStamp": "2025-08-08T13:14:10.011Z",
-        "lastTried": "13 days ago",
-        "attempt": 2
-      },
       "Modal dialogue": {
         "name": "Modal dialogue",
         "details": "Modal dialogs are interactive overlay windows that temporarily disable the main content of a web page, focusing user attention on specific tasks or information. They serve various purposes, including displaying critical alerts, requesting user input, confirming actions, and presenting additional content without navigating away from the current context.\n\nBuild a reusable modal dialog component that can be opened and closed with customizable title and contents.",
@@ -283,7 +199,7 @@
         ],
         "slNo": 66,
         "timeStamp": "2025-08-08T14:16:48.267Z",
-        "lastTried": "13 days ago",
+        "lastTried": "67 days ago",
         "attempt": 4
       },
       "Trapping Rain Water": {
@@ -296,20 +212,7 @@
         ],
         "slNo": 27,
         "timeStamp": "2025-08-09T10:21:51.781Z",
-        "lastTried": "12 days ago",
-        "attempt": 2
-      },
-      "Palindrome Linked List": {
-        "name": "Palindrome Linked List",
-        "details": "Check if a linked list reads the same forward and backward. eg: input [1,2,2,1] → output true",
-        "tags": [
-          "dsa",
-          "2pointer",
-          "linkedlist"
-        ],
-        "slNo": 28,
-        "timeStamp": "2025-08-09T11:11:35.819Z",
-        "lastTried": "12 days ago",
+        "lastTried": "66 days ago",
         "attempt": 2
       },
       "Create a file explorer problem with React or vanila js": {
@@ -320,7 +223,7 @@
         ],
         "slNo": 48,
         "timeStamp": "2025-08-09T11:15:22.051Z",
-        "lastTried": "12 days ago",
+        "lastTried": "66 days ago",
         "attempt": 1
       },
       "Check if a string of brackets is valid": {
@@ -334,7 +237,7 @@
         ],
         "slNo": 52,
         "timeStamp": "2025-08-09T11:25:48.214Z",
-        "lastTried": "12 days ago",
+        "lastTried": "66 days ago",
         "attempt": 1
       },
       "Undoable Counter": {
@@ -345,7 +248,7 @@
         ],
         "slNo": 67,
         "timeStamp": "2025-08-09T12:38:50.899Z",
-        "lastTried": "12 days ago",
+        "lastTried": "66 days ago",
         "attempt": 2
       },
       "Squash object": {
@@ -356,7 +259,7 @@
         ],
         "slNo": 55,
         "timeStamp": "2025-08-10T04:02:38.721Z",
-        "lastTried": "12 days ago",
+        "lastTried": "66 days ago",
         "attempt": 3
       },
       "Find Element in Rotated Array": {
@@ -369,7 +272,7 @@
         ],
         "slNo": 57,
         "timeStamp": "2025-08-10T04:12:29.174Z",
-        "lastTried": "12 days ago",
+        "lastTried": "66 days ago",
         "attempt": 3
       },
       "Optimal Stock Trading": {
@@ -381,7 +284,7 @@
         ],
         "slNo": 58,
         "timeStamp": "2025-08-10T04:16:55.795Z",
-        "lastTried": "12 days ago",
+        "lastTried": "66 days ago",
         "attempt": 3
       },
       "Find the intersection of all arrays (i.e., elements common to every sub-array)": {
@@ -393,32 +296,7 @@
         ],
         "slNo": 51,
         "timeStamp": "2025-08-10T04:18:12.555Z",
-        "lastTried": "12 days ago",
-        "attempt": 4
-      },
-      "Segment Words": {
-        "name": "Segment Words",
-        "details": "Given a string str and a list of words dict, determine if str can be segmented into a sequence of one or more words from dict. Words from dict can be reused multiple times in the segmentation.\n\nReturn true if it is possible to segment str, and false otherwise.\n\nInput: str = \"greatfrontendgreat\", dict = [\"frontend\",\"great\"]\nOutput: true\nExplanation: The string can be segmented as 'great' + 'frontend' + 'great' as we can re-use 'great'.",
-        "tags": [
-          "backtracking",
-          "dsa"
-        ],
-        "slNo": 60,
-        "timeStamp": "2025-08-10T04:19:33.481Z",
-        "lastTried": "12 days ago",
-        "attempt": 3
-      },
-      "🔹 Given an array of strings, group anagrams together.  js Copy Edit": {
-        "name": "🔹 Given an array of strings, group anagrams together.  js Copy Edit",
-        "details": "Input: [\"eat\", \"tea\", \"tan\", \"ate\", \"nat\", \"bat\"]\nOutput: [[\"eat\",\"tea\",\"ate\"], [\"tan\",\"nat\"], [\"bat\"]]",
-        "tags": [
-          "hashmap",
-          "strings",
-          "js-reduce"
-        ],
-        "slNo": 50,
-        "timeStamp": "2025-08-11T04:30:38.736Z",
-        "lastTried": "11 days ago",
+        "lastTried": "66 days ago",
         "attempt": 4
       },
       "Map Async Limit": {
@@ -429,7 +307,7 @@
         ],
         "slNo": 56,
         "timeStamp": "2025-08-11T13:26:27.854Z",
-        "lastTried": "10 days ago",
+        "lastTried": "64 days ago",
         "attempt": 3
       },
       "Dice roller": {
@@ -440,20 +318,7 @@
         ],
         "slNo": 68,
         "timeStamp": "2025-08-11T13:30:47.672Z",
-        "lastTried": "10 days ago",
-        "attempt": 2
-      },
-      "Group Anagrams": {
-        "name": "Group Anagrams",
-        "details": "Group words that are anagrams of each other. eg: input ['eat','tea','tan','ate'] → output [['eat','tea','ate'],['tan']]",
-        "tags": [
-          "dsa",
-          "hashmap",
-          "strings"
-        ],
-        "slNo": 37,
-        "timeStamp": "2025-08-11T13:30:56.085Z",
-        "lastTried": "10 days ago",
+        "lastTried": "64 days ago",
         "attempt": 2
       },
       "Word Search": {
@@ -466,7 +331,7 @@
         ],
         "slNo": 42,
         "timeStamp": "2025-08-11T13:32:53.716Z",
-        "lastTried": "10 days ago",
+        "lastTried": "64 days ago",
         "attempt": 2
       },
       "Course Dependency": {
@@ -478,45 +343,8 @@
         ],
         "slNo": 59,
         "timeStamp": "2025-08-11T14:01:28.163Z",
-        "lastTried": "10 days ago",
+        "lastTried": "64 days ago",
         "attempt": 3
-      },
-      "Subsets": {
-        "name": "Subsets",
-        "details": "Return all possible subsets (power set) of a list. eg: input [1,2,3] → output [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]",
-        "tags": [
-          "dsa",
-          "backtracking"
-        ],
-        "slNo": 41,
-        "timeStamp": "2025-08-11T14:08:45.405Z",
-        "lastTried": "10 days ago",
-        "attempt": 2
-      },
-      "Binary Tree Inorder Traversal": {
-        "name": "Binary Tree Inorder Traversal",
-        "details": "Return inorder traversal of binary tree nodes’ values. eg: input tree [1,null,2,3] → output [1,3,2]",
-        "tags": [
-          "dsa",
-          "tree",
-          "dfs"
-        ],
-        "slNo": 19,
-        "timeStamp": "2025-08-11T14:09:01.955Z",
-        "lastTried": "10 days ago",
-        "attempt": 2
-      },
-      "Binary tree level order traversal": {
-        "name": "Binary tree level order traversal",
-        "details": "Implememnt a function to traverse binary tree in level order",
-        "tags": [
-          "tree",
-          "bfs"
-        ],
-        "slNo": 74,
-        "timeStamp": "2025-08-12T04:23:03.258Z",
-        "lastTried": "10 days ago",
-        "attempt": 1
       },
       "LRU Cache": {
         "name": "LRU Cache",
@@ -528,7 +356,7 @@
         ],
         "slNo": 40,
         "timeStamp": "2025-08-16T04:53:04.767Z",
-        "lastTried": "6 days ago",
+        "lastTried": "60 days ago",
         "attempt": 2
       },
       "Minimum Window Substring": {
@@ -540,7 +368,7 @@
         ],
         "slNo": 35,
         "timeStamp": "2025-08-19T03:00:17.595Z",
-        "lastTried": "3 days ago",
+        "lastTried": "57 days ago",
         "attempt": 3
       },
       "Build deeplinking application with tabview": {
@@ -551,7 +379,7 @@
         ],
         "slNo": 49,
         "timeStamp": "2025-08-19T03:48:35.448Z",
-        "lastTried": "3 days ago",
+        "lastTried": "57 days ago",
         "attempt": 3
       },
       "Next Greater Element": {
@@ -563,7 +391,7 @@
         ],
         "slNo": 16,
         "timeStamp": "2025-08-19T04:38:33.893Z",
-        "lastTried": "3 days ago",
+        "lastTried": "57 days ago",
         "attempt": 3
       },
       "Number of Islands": {
@@ -577,7 +405,7 @@
         ],
         "slNo": 5,
         "timeStamp": "2025-08-19T07:57:06.176Z",
-        "lastTried": "3 days ago",
+        "lastTried": "56 days ago",
         "attempt": 2
       },
       "Maximum Subarray Sum (Kadane's)": {
@@ -589,7 +417,7 @@
         ],
         "slNo": 23,
         "timeStamp": "2025-08-19T08:01:18.263Z",
-        "lastTried": "3 days ago",
+        "lastTried": "56 days ago",
         "attempt": 2
       },
       "Find the longest palindrome substring from a string.": {
@@ -600,7 +428,7 @@
         ],
         "slNo": 69,
         "timeStamp": "2025-08-19T09:08:29.988Z",
-        "lastTried": "2 days ago",
+        "lastTried": "56 days ago",
         "attempt": 2
       },
       "Longest Substring Without Repeating Characters": {
@@ -612,7 +440,7 @@
         ],
         "slNo": 34,
         "timeStamp": "2025-08-19T10:26:37.209Z",
-        "lastTried": "2 days ago",
+        "lastTried": "56 days ago",
         "attempt": 2
       },
       "Jump Game": {
@@ -624,7 +452,7 @@
         ],
         "slNo": 2,
         "timeStamp": "2025-08-19T11:09:55.722Z",
-        "lastTried": "2 days ago",
+        "lastTried": "56 days ago",
         "attempt": 4
       },
       "Two Sum": {
@@ -636,7 +464,7 @@
         ],
         "slNo": 24,
         "timeStamp": "2025-08-19T11:37:22.715Z",
-        "lastTried": "2 days ago",
+        "lastTried": "56 days ago",
         "attempt": 2
       },
       "Reverse an Array": {
@@ -648,7 +476,7 @@
         ],
         "slNo": 25,
         "timeStamp": "2025-08-19T11:40:46.814Z",
-        "lastTried": "2 days ago",
+        "lastTried": "56 days ago",
         "attempt": 2
       },
       "Validate Binary Search Tree": {
@@ -660,7 +488,7 @@
         ],
         "slNo": 66,
         "timeStamp": "2025-08-19T12:01:34.155Z",
-        "lastTried": "2 days ago",
+        "lastTried": "56 days ago",
         "attempt": 3
       },
       "Lowest Common Ancestor of BST": {
@@ -672,7 +500,7 @@
         ],
         "slNo": 20,
         "timeStamp": "2025-08-19T12:04:51.602Z",
-        "lastTried": "2 days ago",
+        "lastTried": "56 days ago",
         "attempt": 3
       },
       "🔹 Product except self": {
@@ -684,7 +512,7 @@
         ],
         "slNo": 53,
         "timeStamp": "2025-08-20T14:46:54.140Z",
-        "lastTried": "1 days ago",
+        "lastTried": "55 days ago",
         "attempt": 4
       },
       "Subarray Sum Equals K": {
@@ -697,7 +525,7 @@
         ],
         "slNo": 30,
         "timeStamp": "2025-08-20T14:48:53.846Z",
-        "lastTried": "1 days ago",
+        "lastTried": "55 days ago",
         "attempt": 4
       },
       "Remove Duplicates from Sorted Array": {
@@ -709,7 +537,7 @@
         ],
         "slNo": 26,
         "timeStamp": "2025-08-20T14:51:00.691Z",
-        "lastTried": "1 days ago",
+        "lastTried": "55 days ago",
         "attempt": 4
       },
       "Word Ladder (a.k.a. Word Transformation)": {
@@ -722,7 +550,7 @@
         ],
         "slNo": 61,
         "timeStamp": "2025-08-21T08:02:15.525Z",
-        "lastTried": "1 days ago",
+        "lastTried": "54 days ago",
         "attempt": 3
       },
       "Implement a rate limiter using the Fetch API and setTimeout/clearTimeout in the browser.": {
@@ -733,7 +561,7 @@
         ],
         "slNo": 54,
         "timeStamp": "2025-08-21T09:25:20.917Z",
-        "lastTried": "23 hours ago",
+        "lastTried": "54 days ago",
         "attempt": 4
       },
       "Merge Sort is a classic Divide and Conquer algorithm that:  Recursively divides the array into halves until each subarray has one element.  Then merges those subarrays in a sorted manner.": {
@@ -744,7 +572,7 @@
         ],
         "slNo": 61,
         "timeStamp": "2025-08-21T09:27:05.457Z",
-        "lastTried": "23 hours ago",
+        "lastTried": "54 days ago",
         "attempt": 3
       },
       "Daily Temperature": {
@@ -755,7 +583,7 @@
         ],
         "slNo": 65,
         "timeStamp": "2025-08-22T02:33:49.653Z",
-        "lastTried": "5 hours ago",
+        "lastTried": "54 days ago",
         "attempt": 3
       },
       "Find kth largest element ?": {
@@ -767,7 +595,7 @@
         ],
         "slNo": 71,
         "timeStamp": "2025-08-22T03:06:18.339Z",
-        "lastTried": "5 hours ago",
+        "lastTried": "54 days ago",
         "attempt": 2
       },
       "Number to roman number": {
@@ -779,7 +607,7 @@
         ],
         "slNo": 72,
         "timeStamp": "2025-08-22T03:17:23.610Z",
-        "lastTried": "5 hours ago",
+        "lastTried": "54 days ago",
         "attempt": 2
       },
       "Single Number": {
@@ -791,7 +619,7 @@
         ],
         "slNo": 12,
         "timeStamp": "2025-08-22T03:34:45.885Z",
-        "lastTried": "4 hours ago",
+        "lastTried": "54 days ago",
         "attempt": 1
       },
       "Counting Bits": {
@@ -803,7 +631,7 @@
         ],
         "slNo": 13,
         "timeStamp": "2025-08-22T03:43:41.489Z",
-        "lastTried": "4 hours ago",
+        "lastTried": "54 days ago",
         "attempt": 1
       },
       "Spiral Matrix": {
@@ -815,7 +643,7 @@
         ],
         "slNo": 14,
         "timeStamp": "2025-08-22T03:44:39.527Z",
-        "lastTried": "4 hours ago",
+        "lastTried": "54 days ago",
         "attempt": 3
       },
       "Permutations": {
@@ -827,7 +655,7 @@
         ],
         "slNo": 36,
         "timeStamp": "2025-08-22T03:46:00.893Z",
-        "lastTried": "4 hours ago",
+        "lastTried": "54 days ago",
         "attempt": 3
       },
       "Insert new Interval": {
@@ -838,11 +666,250 @@
         ],
         "slNo": 73,
         "timeStamp": "2025-08-22T07:18:28.565Z",
-        "lastTried": "1 hours ago",
+        "lastTried": "53 days ago",
         "attempt": 2
+      },
+      "Binary Tree Inorder Traversal": {
+        "name": "Binary Tree Inorder Traversal",
+        "details": "Return inorder traversal of binary tree nodes’ values. eg: input tree [1,null,2,3] → output [1,3,2]",
+        "tags": [
+          "dsa",
+          "tree",
+          "dfs"
+        ],
+        "slNo": 19,
+        "timeStamp": "2025-08-24T09:24:24.015Z",
+        "lastTried": "51 days ago",
+        "attempt": 3
+      },
+      "Subsets": {
+        "name": "Subsets",
+        "details": "Return all possible subsets (power set) of a list. eg: input [1,2,3] → output [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]",
+        "tags": [
+          "dsa",
+          "backtracking"
+        ],
+        "slNo": 41,
+        "timeStamp": "2025-08-24T09:38:38.361Z",
+        "lastTried": "51 days ago",
+        "attempt": 3
+      },
+      "🔹 Given an array of strings, group anagrams together.  js Copy Edit": {
+        "name": "🔹 Given an array of strings, group anagrams together.  js Copy Edit",
+        "details": "Input: [\"eat\", \"tea\", \"tan\", \"ate\", \"nat\", \"bat\"]\nOutput: [[\"eat\",\"tea\",\"ate\"], [\"tan\",\"nat\"], [\"bat\"]]",
+        "tags": [
+          "hashmap",
+          "strings",
+          "js-reduce"
+        ],
+        "slNo": 50,
+        "timeStamp": "2025-08-24T09:38:54.904Z",
+        "lastTried": "51 days ago",
+        "attempt": 5
+      },
+      "Segment Words": {
+        "name": "Segment Words",
+        "details": "Given a string str and a list of words dict, determine if str can be segmented into a sequence of one or more words from dict. Words from dict can be reused multiple times in the segmentation.\n\nReturn true if it is possible to segment str, and false otherwise.\n\nInput: str = \"greatfrontendgreat\", dict = [\"frontend\",\"great\"]\nOutput: true\nExplanation: The string can be segmented as 'great' + 'frontend' + 'great' as we can re-use 'great'.",
+        "tags": [
+          "backtracking",
+          "dsa"
+        ],
+        "slNo": 60,
+        "timeStamp": "2025-08-24T09:49:44.522Z",
+        "lastTried": "51 days ago",
+        "attempt": 4
+      },
+      "Group Anagrams": {
+        "name": "Group Anagrams",
+        "details": "Group words that are anagrams of each other. eg: input ['eat','tea','tan','ate'] → output [['eat','tea','ate'],['tan']]",
+        "tags": [
+          "dsa",
+          "hashmap",
+          "strings"
+        ],
+        "slNo": 37,
+        "timeStamp": "2025-08-24T09:54:40.707Z",
+        "lastTried": "51 days ago",
+        "attempt": 3
+      },
+      "Binary tree level order traversal": {
+        "name": "Binary tree level order traversal",
+        "details": "Implememnt a function to traverse binary tree in level order",
+        "tags": [
+          "tree",
+          "bfs"
+        ],
+        "slNo": 74,
+        "timeStamp": "2025-08-24T09:56:04.931Z",
+        "lastTried": "51 days ago",
+        "attempt": 2
+      },
+      "Palindrome Linked List": {
+        "name": "Palindrome Linked List",
+        "details": "Check if a linked list reads the same forward and backward. eg: input [1,2,2,1] → output true",
+        "tags": [
+          "dsa",
+          "2pointer",
+          "linkedlist"
+        ],
+        "slNo": 28,
+        "timeStamp": "2025-08-24T10:09:32.099Z",
+        "lastTried": "51 days ago",
+        "attempt": 3
+      },
+      "Implement progressBar problem from greatfront end": {
+        "name": "Implement progressBar problem from greatfront end",
+        "details": "Implement a list of prrogressBars with on end of one progress other should trigger.",
+        "tags": [
+          "ReactJs",
+          "UI"
+        ],
+        "slNo": 76,
+        "timeStamp": "2025-08-25T13:31:15.994Z",
+        "lastTried": "50 days ago",
+        "attempt": 1
+      },
+      "Insertion sort": {
+        "name": "Insertion sort",
+        "details": "Implement insertion sort",
+        "tags": [
+          "sort"
+        ],
+        "slNo": 77,
+        "timeStamp": "2025-08-26T02:58:50.801Z",
+        "lastTried": "50 days ago",
+        "attempt": 1
+      },
+      "Clone Graph": {
+        "name": "Clone Graph",
+        "details": "Clone an undirected graph. eg: input graph node with value 1 connected to 2 and 3 → output cloned graph",
+        "tags": [
+          "dsa",
+          "graph",
+          "dfs",
+          "bfs"
+        ],
+        "slNo": 6,
+        "timeStamp": "2025-08-26T03:36:43.381Z",
+        "lastTried": "50 days ago",
+        "attempt": 1
+      },
+      "Minimum Meeting Rooms (a.k.a. Meeting Rooms II)": {
+        "name": "Minimum Meeting Rooms (a.k.a. Meeting Rooms II)",
+        "details": "Given meeting time intervals [[start, end], ...], return the minimum number of rooms required so no meetings overlap in the same room.\n\nAssumption: treat intervals as half-open [start, end) — a meeting starting exactly when another ends does not overlap.\nconsole.log(\n    minMeetingRooms([\n      [1, 10],\n      [2, 7],\n      [3, 19],\n      [8, 12],\n      [10, 20],\n      [11, 30],\n    ])\n  ); // 4",
+        "tags": [
+          "intervals"
+        ],
+        "slNo": 78,
+        "timeStamp": "2025-08-26T04:20:45.908Z",
+        "lastTried": "50 days ago",
+        "attempt": 1
+      },
+      "Rotate Image": {
+        "name": "Rotate Image",
+        "details": "Rotate an N×N matrix 90 degrees clockwise in-place. eg: input [[1,2],[3,4]] → output [[3,1],[4,2]]",
+        "tags": [
+          "dsa",
+          "matrix"
+        ],
+        "slNo": 15,
+        "timeStamp": "2025-08-27T10:56:42.626Z",
+        "lastTried": "48 days ago",
+        "attempt": 1
+      },
+      "Linked List Cycle Detection": {
+        "name": "Linked List Cycle Detection",
+        "details": "Detect if a linked list has a cycle. eg: input linked list with a cycle → output true",
+        "tags": [
+          "dsa",
+          "fastslowpointer",
+          "linkedlist"
+        ],
+        "slNo": 29,
+        "timeStamp": "2025-08-27T10:56:48.367Z",
+        "lastTried": "48 days ago",
+        "attempt": 1
+      },
+      "Interval Scheduling (Meeting Rooms II)": {
+        "name": "Interval Scheduling (Meeting Rooms II)",
+        "details": "Find minimum number of meeting rooms required for all intervals. eg: input [[0,30],[5,10],[15,20]] → output 2",
+        "tags": [
+          "dsa",
+          "greedy",
+          "intervals"
+        ],
+        "slNo": 1,
+        "timeStamp": "2025-08-27T10:57:17.821Z",
+        "lastTried": "48 days ago",
+        "attempt": 1
+      },
+      "Paypal interview question": {
+        "name": "Paypal interview question",
+        "details": "Create a tool to list down all the avalable players and selected players in side by side . with select and remove buttons and upon clik of any row will pop up the modal with player details.",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 70,
+        "timeStamp": "2025-08-27T15:03:04.986Z",
+        "lastTried": "48 days ago",
+        "attempt": 2
+      },
+      "Traffic Light": {
+        "name": "Traffic Light",
+        "details": "Build a traffic light where the lights switch from green to yellow to red after predetermined intervals and loop indefinitely. Each light should be lit for the following durations:\n\nRed light: 4000ms\nYellow light: 500ms\nGreen light: 3000ms",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 62,
+        "timeStamp": "2025-08-27T15:42:42.936Z",
+        "lastTried": "48 days ago",
+        "attempt": 3
+      },
+      "Longest Increasing Subsequence": {
+        "name": "Longest Increasing Subsequence",
+        "details": "Find length of the longest increasing subsequence in an array. eg: input [10,9,2,5,3,7,101,18] → output 4",
+        "tags": [
+          "dsa",
+          "dp"
+        ],
+        "slNo": 44,
+        "timeStamp": "2025-09-05T13:28:19.955Z",
+        "lastTried": "39 days ago",
+        "attempt": 1
+      },
+      "Image Carousel": {
+        "name": "Image Carousel",
+        "details": "esign an image carousel component that displays a list of images one at a time, allowing the user to browse through them with pagination buttons.",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 63,
+        "timeStamp": "2025-09-05T13:35:26.163Z",
+        "lastTried": "39 days ago",
+        "attempt": 3
+      },
+      "File explorer": {
+        "name": "File explorer",
+        "details": "Given an array of file objects, build a component that displays them in a hierarchical tree format.\n\nThere are two types of objects – files and directories:\n\nFiles are essentially leaf nodes of the tree, they do not have children.\nDirectories can contain other objects – either files or directories.\nYou may assume that the IDs and names within the same directory are unique.",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 64,
+        "timeStamp": "2025-09-05T13:35:32.630Z",
+        "lastTried": "39 days ago",
+        "attempt": 3
+      },
+      "BST fundamentals": {
+        "name": "BST fundamentals",
+        "details": "Create BST class with fundamental methods.",
+        "tags": [],
+        "slNo": 80,
+        "timeStamp": "2025-10-15T05:33:54.515Z",
+        "lastTried": "0 minutes ago",
+        "attempt": 1
       }
     },
-    "total": 75
+    "total": 80
   },
   "Tech specific-front end": {
     "todo": {
@@ -872,15 +939,6 @@
           "strings"
         ],
         "slNo": 4
-      },
-      "Build basic HOC component in react js": {
-        "name": "Build basic HOC component in react js",
-        "details": "Create a basic HOC Component in react js which will logs clicks on click of a component which is being passed to the HOC",
-        "tags": [
-          "UI",
-          "ReactJs"
-        ],
-        "slNo": 5
       },
       "Javascript event loop": {
         "name": "Javascript event loop",
@@ -965,14 +1023,6 @@
         ],
         "slNo": 16
       },
-      "React fundamental study": {
-        "name": "React fundamental study",
-        "details": "Study\n1. What is react , why is react etc\n2. Lifecycle methods\n3. React hooks, signatures and use cases\n4. axios interceptors\n5. Error handling in front end\n6. React , redux , saga\n7. State prop difference \n8. How to use state in application\n9. What is higher order component\n10. Error boundaries in reactjs",
-        "tags": [
-          "ReactJs"
-        ],
-        "slNo": 18
-      },
       "Javascript fundamental study.": {
         "name": "Javascript fundamental study.",
         "details": "Study js theories.\n1. Closure.\n2. Eventloop.\n3. Event delegation.\n4. Promise Async.\n5. JS Compilation steps.\n6. Variable scope.\n7. this keyword.\n8. prototype.\n",
@@ -1016,7 +1066,7 @@
         ],
         "slNo": 17,
         "timeStamp": "2025-08-07T10:43:25.571Z",
-        "lastTried": "13 days ago",
+        "lastTried": "68 days ago",
         "attempt": 1
       },
       "Create a useOutsideClick react hook": {
@@ -1028,7 +1078,7 @@
         ],
         "slNo": 20,
         "timeStamp": "2025-08-09T15:18:08.234Z",
-        "lastTried": "11 days ago",
+        "lastTried": "66 days ago",
         "attempt": 1
       },
       "Create a promise timeout utility": {
@@ -1042,7 +1092,7 @@
         ],
         "slNo": 21,
         "timeStamp": "2025-08-09T15:22:53.893Z",
-        "lastTried": "11 days ago",
+        "lastTried": "66 days ago",
         "attempt": 1
       },
       "Create a useDebounce": {
@@ -1054,7 +1104,7 @@
         ],
         "slNo": 22,
         "timeStamp": "2025-08-16T04:40:12.220Z",
-        "lastTried": "5 days ago",
+        "lastTried": "59 days ago",
         "attempt": 1
       },
       "Basic Form validation": {
@@ -1066,7 +1116,7 @@
         ],
         "slNo": 3,
         "timeStamp": "2025-08-21T04:10:04.773Z",
-        "lastTried": "30 minutes ago",
+        "lastTried": "54 days ago",
         "attempt": 2
       },
       "Create a custome hook with reactjs": {
@@ -1077,11 +1127,67 @@
         ],
         "slNo": 6,
         "timeStamp": "2025-08-21T04:40:50.027Z",
-        "lastTried": "0 minutes ago",
+        "lastTried": "54 days ago",
         "attempt": 2
+      },
+      "Build basic HOC component in react js": {
+        "name": "Build basic HOC component in react js",
+        "details": "Create a basic HOC Component in react js which will logs clicks on click of a component which is being passed to the HOC",
+        "tags": [
+          "UI",
+          "ReactJs"
+        ],
+        "slNo": 5,
+        "timeStamp": "2025-08-26T01:37:22.820Z",
+        "lastTried": "50 days ago",
+        "attempt": 1
+      },
+      "Try a real world application of useContext and useReducer": {
+        "name": "Try a real world application of useContext and useReducer",
+        "details": "Implement the application with the concepts of authGuard featureGuard and useContext and useReducer",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 26,
+        "timeStamp": "2025-08-26T01:39:41.732Z",
+        "lastTried": "50 days ago",
+        "attempt": 1
+      },
+      "Cycle detection in linkedlist": {
+        "name": "Cycle detection in linkedlist",
+        "details": "Implement a logic to find out cycle detection in linkedlist",
+        "tags": [
+          "linkedlist"
+        ],
+        "slNo": 27,
+        "timeStamp": "2025-08-26T03:06:02.748Z",
+        "lastTried": "50 days ago",
+        "attempt": 1
+      },
+      "Practice promise polifills": {
+        "name": "Practice promise polifills",
+        "details": "Practice gfe\n1. promise.reject\n2. promise.resolve\n3. promise.resolve\n4. promise.withResolvers\n5. resumable interval",
+        "tags": [
+          "UI"
+        ],
+        "slNo": 29,
+        "timeStamp": "2025-08-26T06:33:57.171Z",
+        "lastTried": "49 days ago",
+        "attempt": 1
+      },
+      "React fundamental study": {
+        "name": "React fundamental study",
+        "details": "Study\n1. What is react , why is react etc\n2. Lifecycle methods\n3. React hooks, signatures and use cases\n4. axios interceptors\n5. Error handling in front end\n6. React , redux , saga\n7. State prop difference \n8. How to use state in application\n9. What is higher order component\n10. Error boundaries in reactjs",
+        "tags": [
+          "ReactJs"
+        ],
+        "slNo": 18,
+        "timeStamp": "2025-10-15T03:56:46.932Z",
+        "lastTried": "0 minutes ago",
+        "attempt": 1
       }
     },
-    "total": 25
+    "total": 29
   },
   "Tech specific-full stack": {
     "todo": {
@@ -1136,6 +1242,14 @@
           "Server"
         ],
         "slNo": 8
+      },
+      "Revise practice list SQL Query": {
+        "name": "Revise practice list SQL Query",
+        "details": "Practice all the postgres queries from the PracticeList app.",
+        "tags": [
+          "Server"
+        ],
+        "slNo": 9
       }
     },
     "completed": {
@@ -1147,7 +1261,7 @@
         ],
         "slNo": 4,
         "timeStamp": "2025-08-05T16:19:50.993Z",
-        "lastTried": "10 days ago",
+        "lastTried": "18 days ago",
         "attempt": 1
       },
       "Implement a graphql server in the express.": {
@@ -1159,10 +1273,10 @@
         ],
         "slNo": 7,
         "timeStamp": "2025-08-07T07:56:19.172Z",
-        "lastTried": "8 days ago",
+        "lastTried": "16 days ago",
         "attempt": 1
       }
     },
-    "total": 8
+    "total": 9
   }
 }

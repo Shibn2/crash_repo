@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 const CAROUSEL_GAP = 10;
 const BORDER = 1;
 function ImageCarousel({ items }) {
-  const [containerWidth, setContainerWidth] = useState(0);
+  const [slideWidth, setslideWidth] = useState(0);
   const slide = useRef(null);
   const slideStrip = useRef(null);
   const currentSLide = useRef(0);
@@ -11,7 +11,7 @@ function ImageCarousel({ items }) {
   useEffect(() => {
     if (slide.current) {
       const slideWidth = slide.current.clientWidth;
-      setContainerWidth(slideWidth);
+      setslideWidth(slideWidth);
     }
   }, []);
 
@@ -19,7 +19,7 @@ function ImageCarousel({ items }) {
     if (slideStrip.current && currentSLide.current > 0) {
       currentSLide.current = currentSLide.current - 1;
       slideStrip.current.style.transform = `translateX(-${
-        currentSLide.current * (containerWidth + CAROUSEL_GAP + BORDER)
+        currentSLide.current * (slideWidth + CAROUSEL_GAP + 2 * BORDER)
       }px)`;
     }
   };
@@ -28,7 +28,7 @@ function ImageCarousel({ items }) {
     if (slideStrip.current && currentSLide.current < items.length - 1) {
       currentSLide.current = currentSLide.current + 1;
       slideStrip.current.style.transform = `translateX(-${
-        currentSLide.current * (containerWidth + CAROUSEL_GAP + 2 * BORDER)
+        currentSLide.current * (slideWidth + CAROUSEL_GAP + 2 * BORDER)
       }px)`;
     }
   };
@@ -37,7 +37,7 @@ function ImageCarousel({ items }) {
     <div>
       <div
         style={{
-          width: `${containerWidth + CAROUSEL_GAP}px`,
+          width: `${slideWidth + CAROUSEL_GAP}px`,
           overflow: "hidden",
         }}
       >

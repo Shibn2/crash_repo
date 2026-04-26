@@ -1,0 +1,11 @@
+React core models
+1. Declarative UI - You describe how the UI should look like for a given state , React computes how to reach it.
+2. Two phases of work.
+    Render (Reconciliation)- Compute the next tree and side effects
+    Commit - Apply the minimal mutations to the host (DOM/Native).Run layout and passive effects.
+3. Fiber - A persistent linked data structure that represents the work for each component instance. It enables incremental , prioritized, interuptible rendering.
+4. Scheduler - Decides what work to do next , yielding to the browser for responsiveness.
+5. Heuristics for speed - O(1) bail out on zero state/prop changes, Memoization, key diffs on lists, batched updates, differing non urgent work via transitions. 
+
+
+Fiber architecture
