@@ -7,17 +7,16 @@ function bstLevelOrderTraversal(root) {
     const len = queue.length;
     const levelList = [];
     for (let idx = 0; idx < len; idx++) {
-      levelList.push(queue[idx].val);
-      const node = queue[idx];
-      if (node.left) {
-        queue.push(node.left);
+      const curr = queue.shift();
+      levelList.push(curr.val);
+      if (curr.left) {
+        queue.push(curr.left);
       }
-      if (node.right) {
-        queue.push(node.right);
+      if (curr.right) {
+        queue.push(curr.right);
       }
     }
     result.push(levelList);
-    queue = queue.slice(len);
   }
   return result;
 }

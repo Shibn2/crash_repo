@@ -12,10 +12,8 @@ function ProductListV2() {
   const [cart, setCart] = useState([]);
 
   const filteredProducts = useMemo(() => {
-    console.log("Filtering products...");
-
     return PRODUCTS.filter((product) => {
-      return product.name.toLowerCase().includes(search.toLowerCase());
+      return product.name.includes(search);
     });
   }, [search]);
 

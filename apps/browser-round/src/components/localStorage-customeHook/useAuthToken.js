@@ -23,7 +23,6 @@ export function useAuthToke() {
 
   const setToken = useCallback((e) => {
     const { value } = e.target;
-    token.current = value;
     setTokenState(value);
     setToLocalStorage(TOKEN_KEY, value);
   }, []);

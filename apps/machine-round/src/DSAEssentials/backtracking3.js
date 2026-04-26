@@ -5,24 +5,23 @@
  */
 function segmentWords(str, dict) {
   const required = str.length;
-  function backtrack(out, pending) {
-    if (out.length > required) {
+  function backtrack(sentence, pendingSentence) {
+    if (sentence.length > required) {
       return false;
     }
-    if (out === str) {
+    if (sentence === str) {
       return true;
     }
 
     for (const word of dict) {
-      if (pending.startsWith(word)) {
-        const newOut = out + word;
-        const newPending = pending.slice(word.length);
-        if (backtrack(newOut, newPending)) {
+      if (pendingSentence.startsWith(word)) {
+        pendingSentence = pendingSentence.slice(word.length);
+        const newSentence = sentence + word;
+        if (backtrack(newSentence, pendingSentence)) {
           return true;
         }
       }
     }
-    return false;
   }
   return backtrack("", str);
 }
